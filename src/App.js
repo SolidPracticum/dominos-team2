@@ -1,4 +1,9 @@
+
+
+import './App.css';
+
 import "./main.sass"
+
 
 
 function App() {
