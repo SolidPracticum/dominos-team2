@@ -1,4 +1,5 @@
-import './main.sass';
+
+
 
 function App() {
   return (
