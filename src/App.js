@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <div className="cart-f">
-      {pizza.map((item) => <Cart {...item}/>)}
+      {pizza.map((item) => <Cart key={item.id} {...item}/>)}
       </div>
     </div>
   );
