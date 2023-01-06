@@ -6,7 +6,7 @@ const PromotionM = () => {
     return (
         <div className='main'>
             <div className='item'>
-                <img src={imgRobot} alt="" />
+                <img src={imgRobot} alt="promo" />
                 <div className='item_child'>
                 <span>28-12-2022</span>
                 <h1>Київстар ТБ та Domino’s. Кіно смакує краще з Domino’s</h1>
@@ -16,7 +16,7 @@ const PromotionM = () => {
                 
             </div>
             <div className='item'>
-                <img src={imgCoke} alt="" />
+                <img src={imgCoke} alt="Coke" />
                 <div className='item_child'>
                 <span>14-12-2022</span>
                 <h1>Магія свят з Coca-Cola та Dominos</h1>

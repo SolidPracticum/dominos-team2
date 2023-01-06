@@ -3,7 +3,7 @@
 const Cart = (props) => {
     return (
         <div className="cart">
-            <img src={props.img} alt="" />
+            <img src={props.img} alt="pizza" />
             <div className="cart_b">
                 <p>{props.title}</p>
                 <div className="cart-sizes">
