@@ -5,7 +5,8 @@
       "title": "Pizza Cherry",
       "sizes": ["Standart", "Large", "ExtraLarge", "XXLarge"],
       "price": 295,
-      "type": ["Phialadelphia", "Hot-Dog Crust"]
+      "type": ["Phialadelphia", "Hot-Dog Crust"],
+      "gramm": "375 g"
     },    
     {
         "img": "https://media.dominos.ua/__sized__/menu/product_osg_image_category/2022/11/09/PRODUCT_IMAGE-PIZZA_PIECES-960x619pix_CHILI-thumbnail-960x960-70.jpg",
@@ -13,7 +14,8 @@
         "title": "Pizza Sweet and sour",
         "sizes": ["Standart", "Large", "ExtraLarge", "XXLarge"],
         "price": 280,
-        "type": ["Phialadelphia", "Hot-Dog Crust"]
+        "type": ["Phialadelphia", "Hot-Dog Crust"],
+        "gramm": "305 g"
     },
     {
         "img": "https://media.dominos.ua/__sized__/menu/product_osg_image_category/2022/11/09/PRODUCT_IMAGE-PIZZA_PIECES-960x619pix_CHILI-thumbnail-960x960-70.jpg",
@@ -21,7 +23,8 @@
         "title": "Pizza Chili",
         "sizes": ["Standart", "Large", "ExtraLarge", "XXLarge"],
         "price": 275,
-        "type": ["Phialadelphia", "Hot-Dog Crust"]
+        "type": ["Phialadelphia", "Hot-Dog Crust"],
+        "gramm": "355 g"
     },
     {
         "img": "https://media.dominos.ua/__sized__/menu/product_osg_image_category/2022/11/09/PRODUCT_IMAGE-PIZZA_PIECES-960x619pix_CHILI-thumbnail-960x960-70.jpg",
@@ -29,6 +32,43 @@
         "title": "Set of pan-asian pizzas (Pizza Curry Pizza Sweet and sour Pizza Chili)",
         "sizes": ["Standart"],
         "type": [],
-        "price": 660
+        "price": 660,
+        "gramm": "1725 g"
+    },
+        {
+        "img": "https://media.dominos.ua/__sized__/menu/product_osg_image_category/2022/11/09/PRODUCT_IMAGE-PIZZA_PIECES-960x619pix_CHILI-thumbnail-960x960-70.jpg",
+      "id": 0,
+      "title": "Pizza Cherry",
+      "sizes": ["Standart", "Large", "ExtraLarge", "XXLarge"],
+      "price": 295,
+      "type": ["Phialadelphia", "Hot-Dog Crust"],
+      "gramm": "375 g"
+    },    
+    {
+        "img": "https://media.dominos.ua/__sized__/menu/product_osg_image_category/2022/11/09/PRODUCT_IMAGE-PIZZA_PIECES-960x619pix_CHILI-thumbnail-960x960-70.jpg",
+        "id": 1,
+        "title": "Pizza Sweet and sour",
+        "sizes": ["Standart", "Large", "ExtraLarge", "XXLarge"],
+        "price": 280,
+        "type": ["Phialadelphia", "Hot-Dog Crust"],
+        "gramm": "305 g"
+    },
+    {
+        "img": "https://media.dominos.ua/__sized__/menu/product_osg_image_category/2022/11/09/PRODUCT_IMAGE-PIZZA_PIECES-960x619pix_CHILI-thumbnail-960x960-70.jpg",
+        "id": 3,
+        "title": "Pizza Chili",
+        "sizes": ["Standart", "Large", "ExtraLarge", "XXLarge"],
+        "price": 275,
+        "type": ["Phialadelphia", "Hot-Dog Crust"],
+        "gramm": "355 g"
+    },
+    {
+        "img": "https://media.dominos.ua/__sized__/menu/product_osg_image_category/2022/11/09/PRODUCT_IMAGE-PIZZA_PIECES-960x619pix_CHILI-thumbnail-960x960-70.jpg",
+        "id": 4,
+        "title": "Set of pan-asian pizzas (Pizza Curry Pizza Sweet and sour Pizza Chili)",
+        "sizes": ["Standart"],
+        "type": [],
+        "price": 660,
+        "gramm": "1725 g"
     }
 ]
