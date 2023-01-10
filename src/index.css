@@ -11,3 +11,27 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* .modal_wrapper{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: rgb(219, 112, 112);
+  backdrop-filter: blur(10px)
+}
+
+.modal_wrapper.close{
+  height: 0;
+  display: none;
+}
+
+.modal_body{
+  min-width: 500px;
+  margin: auto;
+  background: white;
+  margin-top: 5px;
+  padding: 20px;
+  border-radius: 10px;
+  min-height: 100px;
+  overflow: scroll;
+} */

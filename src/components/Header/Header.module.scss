@@ -1,0 +1,152 @@
+* {
+    text-decoration: none;
+
+}
+
+.wrapper {
+    width: 100%;
+    height: 20vh;
+}
+
+.top {
+    height: 50%;
+    padding: 0 70px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #4f4f4f;
+}
+
+.lng_auth {
+    display: flex;
+    align-items: center;
+    grid-gap: 10px;
+}
+.phone, .city{
+    color: grey;
+}
+.bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50%;
+    padding: 0 70px;
+    color: #fff;
+    background-color: black;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    grid-gap: 10px;
+
+}
+
+.phone:hover, .city:hover, .login:hover {
+
+   color:white;
+}
+
+.ln:hover{
+background-color: black;
+}
+
+
+.pizza {
+    display: flex;
+    align-items: center;
+    grid-gap: 10px;
+}
+
+.city {
+
+
+    margin-left: 120px;
+}
+
+.checkoutWrapper {
+    display: flex;
+    align-items: center;
+    width: 130px;
+    height: 60%;
+    background-color: white;
+    border-radius: 15px;
+}
+
+
+.checkout {
+
+    float: right;
+    height: 95%;
+    width: 80%;
+    background-color: #e31837;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+
+}
+
+li {
+    list-style-type: none;
+}
+
+
+.menu {
+    color: white;
+
+}
+
+.login {
+
+    width: 130px;
+    height: 60%;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    opacity: .7;
+
+}
+.login h3 {
+    color: black;
+
+}
+
+.login:hover{
+    background-color: #fff;
+}
+
+.ln {
+    color: white;
+    width: 130px;
+    height: 60%;
+    border: 1px solid black;
+    background-color: #4f4f4f;
+    border-radius: 15px;
+    float: right;
+
+}
+
+
+
+
+
+@media screen and (max-width: 925px) {
+    .wrapper {
+        padding: 25px 0px;
+    }
+
+    .navElements {
+        display: none;
+    }
+
+    .checkoutWrapper {
+        display: none;
+    }
+
+    .icon {
+        display: inline;
+        position: relative;
+        left: 35%;
+    }
+}

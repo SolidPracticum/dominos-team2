@@ -1,0 +1,121 @@
+import React, { useState } from 'react'
+import { Link } from 'react-router-dom'
+import styles from './Header.module.scss'
+import { GiHamburgerMenu } from 'react-icons/gi'
+import { ImCross } from 'react-icons/im'
+
+import phone from "../../assests/phone.png"
+import basket from "../../assests/basket.png"
+import pizza from "../../assests/pizza.png"
+import placeholder from "../../assests/placeholder.png"
+
+function Header({ clicked, isClicked }) {
+  const handleClicked = () => {
+    isClicked(!clicked);
+  }
+
+
+  return (
+    <div className={styles.wrapper}>
+
+      <div className={styles.top}>
+        
+        <div className={styles.lng_auth}>
+
+          <Link to="/Contacts" className={styles.contact}>
+            <img width={25} src={phone} alt="" />
+            <h3 className={styles.phone}>0442 222 11 11</h3>
+          </Link>
+
+          <div className={styles.city}>
+            <img src={placeholder} alt="" />
+            Kiev
+            </div>
+        </div>
+
+
+
+
+
+        <div className={styles.lng_auth}>
+          <select className={styles.ln}>
+            <option value="English">English</option>
+            <option value="English">Русский</option>
+          
+          </select>
+          <div className={styles.login}>
+            <Link to="/Login">
+              <h3>Login</h3>
+            </Link>
+          </div>
+        </div>
+
+
+
+
+
+
+      </div>
+      <div className={styles.bottom}>
+       <div>
+      
+       <Link to="/Domino" className={styles.pizza}>
+       <img  src={pizza} alt="" />
+          <h3 className={styles.domino}>Domino's Pizza</h3> 
+          
+        </Link>
+       
+       </div>
+       
+
+
+        <Link to="/">
+          <li className={styles.navElements}>Promo</li>
+        </Link>
+
+        <Link to="/Pizza">
+          <li className={styles.navElements}>Pizza</li>
+        </Link>
+
+        <Link to="/Drinks">
+          <li className={styles.navElements}>Drinks</li>
+        </Link>
+
+        <Link to="/Sides">
+          <li className={styles.navElements}>Sides</li>
+        </Link>
+
+        <Link to="/Desserts">
+          <li className={styles.navElements}>Desserts</li>
+        </Link>
+
+        <div className={styles.checkoutWrapper}>
+         
+          <img src={basket} alt="" />
+      
+       
+
+          <div className={styles.checkout}>
+          <h3>Checkout</h3>
+            <Link to="/Checkout">
+            
+              
+            </Link>
+          </div>
+        </div>
+
+        <div className={styles.menu}>
+          {!clicked ?
+            (< GiHamburgerMenu className={styles.icon} onClick={handleClicked} />
+            ) : (
+              <ImCross className={styles.icon} onClick={handleClicked} />
+            )}
+        </div>
+
+
+      </div>
+
+    </div>
+  )
+}
+export default Header
