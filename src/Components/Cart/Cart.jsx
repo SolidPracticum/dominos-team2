@@ -1,19 +1,29 @@
+import { useState } from "react"
 
 
-const Cart = (props) => {
+const Cart = ({img, gramm, title, sizes, type, price}) => {
+    const [active, setActive] = useState(0);
+    const Click = (index) => {
+        setActive(index)
+    }
     return (
         <div className="cart">
-            <img src={props.img} alt="" />
+            <div className="cart_img">
+                <img src={img} alt="pizza" />
+                <span>{gramm}</span>
+            </div>
             <div className="cart_b">
-                <p>{props.title}</p>
+                <div className="cart_title">
+                    <p>{title}</p>
+                </div>
                 <div className="cart-sizes">
-                    {props.sizes.map((item) => <button>{item}</button>)}
+                    {sizes.map((item, index) => <button onClick={() => Click(index)} className={active === index ? 'active' : ""}>{item}</button>)}
                 </div>
                 <div className="cart-type">
-                    {props.type.map((item) => <button>{item}</button>)}
+                    {type.map((item, index) => <button onClick={() => Click(index)} className={active === index ? 'active' : ''}>{item}</button>)}
                 </div>
                 <div className="cart-price">
-                    <p>{props.price} uah</p>
+                    <p>{price} uah</p>
                     <button>To cart</button>
                 </div>
             </div>
