@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import logo from './Domino.svg'
 import burger from './burgerblack.png'
 import './Header.scss'
-const Header = () => {
+const HeaderPR = () => {
     return (
         <div className='header'>
             <div className="container">
@@ -49,4 +49,4 @@ const Header = () => {
     );
 };
 
-export default Header;
+export default HeaderPR;
