@@ -1,23 +1,17 @@
 
-import Header from "./components/Header/Header";
 import Auth from "./components/Pages/Auth";
 import { Route, Routes } from 'react-router-dom';
-import { useState } from "react";
 import "./main.scss"
-
-
+import HomePage from "./components/HomePage/HomePage";
 function App() {
 
-  const [clicked, isClicked] = useState(false)
+ 
   return (
 
     <div>
-      <Header clicked={clicked} isClicked={isClicked} />
-
-
-
+    
       <Routes>
-        <Route path="/" element={<h3>Domino</h3>} />
+        <Route path="/" element={<HomePage/>} />
         <Route path="/Promo" element={<h3>Promo</h3>} />
         <Route path="/Pizza" element={<h3>Pizza</h3>} />
         <Route path="/Drinks" element={<h3>Drinks</h3>} />
@@ -30,6 +24,4 @@ function App() {
     </div>
   );
 }
-
-
 export default App;
