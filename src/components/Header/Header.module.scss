@@ -120,10 +120,6 @@
     background-color: #4f4f4f
 }
 
-.basketWrapper img {
-
-
-}
 .basket{
 img{width: 15px;
 height: 15px;
@@ -163,6 +159,7 @@ li {
 
 }
 
+
 .login h4 {
     color: black;
 
@@ -188,20 +185,26 @@ li {
 
 
 @media screen and (max-width: 925px) {
+    *{
+        padding: 0px;
+    }
     .wrapper {
-        padding: 25px 0px;
+        padding: 0px 0px;
     }
 
-    .navElements {
-        display: none;
-    }
-
+.pizza{
+    display: none;
+}
     .ln {
         display: none;
     }
 
     .login {
         display: none;
+    }
+
+    .phone{
+    width: -10%;
     }
 
     .checkoutWrapper {
