@@ -24,7 +24,7 @@ export default class SimpleSlider extends Component {
             sliderCard.map((item) => <div key={item.id}>
               <div className={scss.slide}>
                 <img className={scss.image} src={item.image} alt="slider_image" />
-                <img className={scss.imageAdaptive} src={item.imgAdaptive} alt="" />
+                <img className={scss.imageAdaptive} src={item.imgAdaptive} alt="slider_adaptive_image" />
                 <button className={scss.btn}>{item.btn}</button>
               </div>
             </div>)
