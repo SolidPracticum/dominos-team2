@@ -1,11 +1,13 @@
+import { Route, Routes } from 'react-router-dom';
 import './App.scss';
-
-import Slider from "./components/slider/Slider";
+import HomePage from './page/HomePage';
 
 function App() {
   return (
     <div className='App'>
-          <Slider/>
+        <Routes>
+          <Route path='/' element={<HomePage/>}/>
+        </Routes>
     </div>
   );
 }

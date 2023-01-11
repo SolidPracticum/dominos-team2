@@ -40,6 +40,11 @@ img{
     display: flex;
     justify-content: center;
 }
+.imageAdaptive{
+    display: none;
+    height: 40vh;
+    object-fit: cover;
+}
 
 @media (max-width:800px){
     img{
@@ -50,4 +55,11 @@ img{
     .btn{
         display: none;
     }
+    .image{
+        display: none;
+    }
+    .imageAdaptive{
+        display: block;
+    }
+
 }

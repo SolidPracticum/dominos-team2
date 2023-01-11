@@ -1,11 +1,10 @@
-import "./Slider.scss"
-
+import scss from "./Slider.module.scss"
 import React, { Component } from "react";
 
 import Slider from "react-slick"
-import "./slick.scss"; 
+import "./slick.scss";
 import "./slick-theme.scss";
-
+import { sliderCard } from "./SlideData";
 
 export default class SimpleSlider extends Component {
   render() {
@@ -17,34 +16,24 @@ export default class SimpleSlider extends Component {
       slidesToScroll: 1
     };
 
-  return (
-    <div>
-    <Slider {...settings}>
+
+    return (
       <div>
-         <img src="https://media.dominos.ua/slider/slide_image/2022/12/27/Kyivstar_Slider_PC_ENG.jpg" alt="" />
-         <button className="btn">Details</button> 
+        <Slider {...settings}>
+          {
+            sliderCard.map((item) => <div key={item.id}>
+              <div className={scss.slide}>
+                <img className={scss.image} src={item.image} alt="slider_image" />
+                <img className={scss.imageAdaptive} src={item.imgAdaptive} alt="" />
+                <button className={scss.btn}>{item.btn}</button>
+              </div>
+            </div>)
+          }
+        </Slider>
+        <div>
+        </div>
       </div>
-      <div>
-      <img src="https://media.dominos.ua/slider/slide_image/2022/12/18/PotatoesMushroomSausages_Slider_PC_ENG.jpg" alt="" />
-          <button className="btn">Order</button>
-      </div>
-      <div>
-      <img src="https://media.dominos.ua/slider/slide_image/2022/12/13/SLIDER_GetWarmCola_Slider_PC_ENG.jpg" alt="" />
-          <button className="btn">Details</button>
-      </div>
-      <div>
-      <img src="https://media.dominos.ua/slider/slide_image/2022/11/16/Panasia_Slider_PC_ENG.jpg" alt="" />
-          <button className="btn">Order</button>
-      </div>
-      <div>
-    
-      <img src="https://media.dominos.ua/slider/slide_image/2022/12/01/PizzaSizes_Slider_PC_ENG.jpg" alt="" />
-          <button className="btn">Order</button>
-      </div>
-    </Slider>
-  </div>
-);
-};
+    );
+  };
 }
 
- 
