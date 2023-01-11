@@ -5,7 +5,7 @@ import { GiHamburgerMenu } from 'react-icons/gi'
 import { ImCross } from 'react-icons/im'
 
 import phone from "../../assests/phone.png"
-import basket from "../../assests/basket.png"
+import shopping from "../../assests/shopping.png"
 import pizza from "../../assests/pizza.png"
 import placeholder from "../../assests/placeholder.png"
 
@@ -29,14 +29,9 @@ function Header({ clicked, isClicked }) {
 
           <div className={styles.city}>
             <img src={placeholder} alt="" />
-            Kiev
+            <h3 className={styles.kiev}>Kiev</h3>
             </div>
         </div>
-
-
-
-
-
         <div className={styles.lng_auth}>
           <select className={styles.ln}>
             <option value="English">English</option>
@@ -45,16 +40,10 @@ function Header({ clicked, isClicked }) {
           </select>
           <div className={styles.login}>
             <Link to="/Login">
-              <h3>Login</h3>
+              <h4>Sign Up</h4>
             </Link>
           </div>
         </div>
-
-
-
-
-
-
       </div>
       <div className={styles.bottom}>
        <div>
@@ -90,11 +79,13 @@ function Header({ clicked, isClicked }) {
         </Link>
 
         <div className={styles.checkoutWrapper}>
-         
-          <img src={basket} alt="" />
-      
+         <div className={styles.basketWrapper}>
+          <h4>00</h4>
+          <div className={styles.basket}>
+          <img src={shopping} alt="" />
+          </div>
        
-
+         </div>
           <div className={styles.checkout}>
           <h3>Checkout</h3>
             <Link to="/Checkout">
