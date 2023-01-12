@@ -3,6 +3,7 @@ import Auth from "./components/Pages/Auth";
 import { Route, Routes } from 'react-router-dom';
 import "./main.scss"
 import HomePage from "./components/HomePage/HomePage";
+import Footer from "./components/Footer/Footer";
 function App() {
 
  
@@ -18,9 +19,9 @@ function App() {
         <Route path="/Sides" element={<h3>Sides</h3>} />
         <Route path="/Desserts" element={<h3>Desserts</h3>} />
         <Route path="/Checkout" element={<h3>Checkout</h3>} />
-
         <Route path="/Auth" element={<Auth />} />
       </Routes>
+      <Footer/>
     </div>
   );
 }
