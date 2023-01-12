@@ -11,8 +11,8 @@ function App() {
     <div className="App">
       <div className="cart-f">
         <Routes>
-          <Route path="/" element={category.map((item) => <BestPrice key={item.id} {...item}/>)}/>
-          {/* <Route path="/" element={pizza.map((item) => <Cart key={item.id} {...item} />)} /> */}
+          {/* <Route path="/" element={category.map((item) => <BestPrice key={item.id} {...item}/>)}/> */}
+          <Route path="/" element={pizza.map((item) => <Cart key={item.id} {...item} />)} />
         </Routes>
       </div>
     </div>
