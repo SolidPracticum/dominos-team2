@@ -10,7 +10,7 @@ export default class SimpleSlider extends Component {
   render() {
     const settings = {
       dots: true,
-      infinite: true,
+      infinite: false,
       speed: 500,
       slidesToShow: 1,
       slidesToScroll: 1
@@ -23,7 +23,7 @@ export default class SimpleSlider extends Component {
           {
             sliderCard.map((item) => <div key={item.id}>
               <div className={scss.slide}>
-                <img className={scss.image} src={item.image} alt="slider_image" />
+                <img className={scss.image} src={item.image} alt="slider_ima  ge" />
                 <img className={scss.imageAdaptive} src={item.imgAdaptive} alt="slider_adaptive_image" />
                 <button className={scss.btn}>{item.btn}</button>
               </div>
