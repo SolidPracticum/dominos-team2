@@ -3,14 +3,15 @@ import DrinksCart from '../Components/DrinksCart/DrinksCart';
 import drinks from '../drinks.json'
 import juice from '../juice.json'
 import beer from '../beer.json'
+import './Pages.scss'
 const DrinksPage = () => {
-
+     const category = [drinks, juice, beer]
     return (
         <div>
-            {[drinks, juice, beer].map((arr) =>
+            {category.map((arr) =>
                 arr.map((item) =>
                     <div className='MAIN'>
-                        <p>{item.text}</p>
+                        <p className='text'>{item.text}</p>
                         <div className='cart-f'>
                             {item.drinks.map((i) => <DrinksCart {...i} />)}
                         </div>

@@ -1,21 +1,21 @@
 import { useState } from 'react';
-import './DrinksPage.scss'
+import scss from "./DrinksCart.module.scss"
 
 const DrinksCart = ({ img, title, price, ml}) => {
     const [activeType, setActiveType] = useState(0)
     return (
-    <div className="cart" >
-        <div className="cart_img">
+    <div className={scss.cart_drinks} >
+        <div className={scss.cart_img}>
             <img src={img} alt="drink" />
         </div>
-        <div className="cart_b">
-            <div className="cart_title">
+        <div className={scss.cart_b}>
+            <div className={scss.cart_title}>
                 <p>{title}</p>
             </div>
-            <div className="cart-type">
-                {ml.map((item, index) => <button onClick={() => setActiveType(index)} className={activeType === index ? 'active' : ''}>{item}</button>)}
+            <div className={scss.cart_type}>
+                {ml.map((item, index) => <button onClick={() => setActiveType(index)} className={activeType === index ? scss.active : ''}>{item}</button>)}
             </div>
-            <div className="cart-price">
+            <div className={scss.cart_price}>
                 <p>{price} uah</p>
                 <button>To cart</button>
             </div>

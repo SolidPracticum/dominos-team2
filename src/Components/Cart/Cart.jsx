@@ -1,11 +1,9 @@
 import { useState } from "react"
-
+import './Cart.scss'
 
 const Cart = ({img, gramm, title, sizes, type, price}) => {
-    const [active, setActive] = useState(0);
-    const Click = (index) => {
-        setActive(index)
-    }
+    const [activeType, setActiveType] = useState(0);
+    const [activeSize, setActiveSize] = useState(0)
     return (
         <div className="cart">
             <div className="cart_img">
@@ -17,10 +15,10 @@ const Cart = ({img, gramm, title, sizes, type, price}) => {
                     <p>{title}</p>
                 </div>
                 <div className="cart-sizes">
-                    {sizes.map((item, index) => <button onClick={() => Click(index)} className={active === index ? 'active' : ""}>{item}</button>)}
+                    {sizes.map((item, index) => <button onClick={() => setActiveSize(index)} className={activeSize === index ? 'active' : ""}>{item}</button>)}
                 </div>
                 <div className="cart-type">
-                    {type.map((item, index) => <button onClick={() => Click(index)} className={active === index ? 'active' : ''}>{item}</button>)}
+                    {type.map((item, index) => <button onClick={() => setActiveType(index)} className={activeType === index ? 'active' : ''}>{item}</button>)}
                 </div>
                 <div className="cart-price">
                     <p>{price} uah</p>
