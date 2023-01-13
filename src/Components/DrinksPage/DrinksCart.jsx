@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import './DrinksPage.scss'
 
-const DrinksPage = ({ img, title, price, ml }) => {
+const DrinksCart = ({ img, title, price, ml}) => {
     const [activeType, setActiveType] = useState(0)
     return (
     <div className="cart" >
@@ -23,4 +23,4 @@ const DrinksPage = ({ img, title, price, ml }) => {
     </div >)
 }
 
-export default DrinksPage
+export default DrinksCart
