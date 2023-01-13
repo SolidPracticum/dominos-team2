@@ -1,28 +1,15 @@
-
-
-import Cart from "./Components/Cart/Cart";
+import { Route, Routes } from 'react-router-dom';
 import "./main.scss"
-import pizza from './pizza.json'
-
-
-function App() {
-  return (
-    <div className="App">
-      <div className="cart-f">
-      {pizza.map((item) => <Cart key={item.id} {...item}/>)}
-      </div>
-    </div>
 import './App.scss';
-import { Routes, Route } from "react-router-dom";
-import HomePage from './components/HomePage/HomePage';
+import HomePage from './page/HomePage';
 
 function App() {
   return (
-    <>
-      <Routes>
-        <Route path='/' element={<HomePage />} />
-      </Routes>
-    </>
+    <div className='App'>
+        <Routes>
+          <Route path='/' element={<HomePage/>}/>
+        </Routes>
+    </div>
   );
 }
 
