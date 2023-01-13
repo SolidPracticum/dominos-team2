@@ -1,11 +1,11 @@
 
 import { Route, Routes } from "react-router-dom";
-import Header from "./Components/Header/HeaderPR";
+import HeaderPR from "./Components/HeaderPR/HeaderPR";
 import './App.scss'
 function App() {
   return (
     <div className="App">
-      <Header/>
+      <HeaderPR/>
       <Routes>
         <Route/>
       </Routes>
