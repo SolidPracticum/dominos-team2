@@ -202,13 +202,10 @@ li {
     .login {
         display: none;
     }
-
     .phone{
-    width: -15%;
+     display: none;
     }
- 
-
-    .checkoutWrapper {
+     .checkoutWrapper {
         display: none;
     }
 
@@ -217,6 +214,5 @@ li {
         position: relative;
         left: 35%;
     }
-
 
 }

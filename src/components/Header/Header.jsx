@@ -23,8 +23,8 @@ function Header({ clicked, isClicked }) {
         <div className={styles.lng_auth}>
 
           <Link to="/Contacts" className={styles.contact}>
-            <img width={25} src={phone} alt="" />
-            <h3 className={styles.phone}>0442 222 11 11</h3>
+            <img src={phone} alt="phone" />
+            <h3 viewBox="0 0 16 24" className={styles.phone}>0442 222 11 11</h3>
           </Link>
 
           <div className={styles.city}>
