@@ -2,7 +2,8 @@ import './App.scss';
 import HomePage from './page/HomePage';
 import { Route, Routes } from "react-router-dom";
 import DrinksP from "./page/DrinksPage";
-import HeaderPromotion from "./Components/HeaderPromotion/HeaderPromotion";
+import HeaderPromotion from './Components/HeaderPromotion/HeaderPromotion';
+
 function App() {
   return (
     <div className="App">

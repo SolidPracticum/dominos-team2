@@ -2,17 +2,17 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import logo from './Domino.svg'
 import burger from './burgerblack.png'
-import './Header.scss'
-const HeaderPR = () => {
+import scss from './HeaderPromotion.module.scss'
+const HeaderPromotion = () => {
     return (
-        <div className='header'>
+        <div className={scss.header}>
             <div className="container">
-                <div className='column'>
-                    <div className='header_top'>
+                <div className={scss.column}>
+                    <div className={scss.header_top}>
                         <img src={logo} alt="logo" width={90} />
                         <h1>Dominos`s Pizza</h1>
                     </div>
-                    <div className='form'>
+                    <div className={scss.form}>
                         <form action="">
                             <select name="" id="">
                                 <option value="uah">Укр</option>
@@ -26,18 +26,18 @@ const HeaderPR = () => {
                             </select>
                         </form>
                     </div>
-                    <div className='form_center'>
+                    <div className={scss.form_center}>
                         <p>0.00грн</p>
                         <button>Замовити</button>
                     </div>
-                    <div className='form_bottom'>
+                    <div className={scss.form_bottom}>
                         <Link>Увiйти</Link>
                         <img src={burger} alt="menu" />
                     </div>
                 </div>
             </div>
-            <div className='column_bottom'>
-                <div className='header_center'>
+            <div className={scss.column_bottom}>
+                <div className={scss.header_center}>
                     <Link to='/promotions'>Акцii</Link>
                     <Link>Пiца</Link>
                     <Link>Напої</Link>
@@ -49,4 +49,4 @@ const HeaderPR = () => {
     );
 };
 
-export default HeaderPR;
+export default HeaderPromotion;
