@@ -1,15 +1,17 @@
-
+import './App.scss';
+import HomePage from './page/HomePage';
 import { Route, Routes } from "react-router-dom";
-import HeaderPR from "./Components/HeaderPR/HeaderPR";
-import './App.scss'
+import DrinksP from "./page/DrinksPage";
+import HeaderPromotion from "./Components/HeaderPromotion/HeaderPromotion";
 function App() {
   return (
     <div className="App">
-      <HeaderPR/>
       <Routes>
-        <Route/>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/drinks" element={<DrinksP />} />
+        <Route path="/promotions" element={<HeaderPromotion/>}/>
       </Routes>
-    </div>
+  </div>
   );
 }
 
