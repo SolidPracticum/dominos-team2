@@ -2,7 +2,7 @@ import './App.scss';
 import HomePage from './page/HomePage';
 import { Route, Routes } from "react-router-dom";
 import DrinksP from "./page/DrinksPage";
-import PromotionMain from './Components/PromotionMain/PromotionM';
+import PromotionMain from './Components/PromotionMain/PromotionMain';
 function App() {
   return (
     <div className="App">
