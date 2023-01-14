@@ -2,7 +2,7 @@ import React from 'react';
 import imgRobot from './DominosMainPR.jpg'
 import imgCoke from './DominosMainPR2.jpg'
 import './MainPr.scss'
-const PromotionM = () => {
+const PromotionMain = () => {
     return (
         <div className='main'>
             <div className='item'>
@@ -29,4 +29,4 @@ const PromotionM = () => {
     );
 };
 
-export default PromotionM;
+export default PromotionMain;

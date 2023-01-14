@@ -6,14 +6,10 @@ const Cart = ({img, gramm, title, sizes, type, price}) => {
     const [activeSize, setActiveSize] = useState(0)
     return (
         <div className="cart">
-<<<<<<< HEAD
-            <img src={props.img} alt="pizza" />
-=======
             <div className="cart_img">
                 <img src={img} alt="pizza" />
                 <span>{gramm}</span>
             </div>
->>>>>>> 8154deac25f4e4b19c2caeee58394a80ce13cc31
             <div className="cart_b">
                 <div className="cart_title">
                     <p>{title}</p>
