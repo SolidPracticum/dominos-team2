@@ -1,5 +1,5 @@
 import React from 'react';
-import DrinksCart from '../Components/DrinksCart/DrinksCart';
+import DrinksCart from '../components/DrinksCart/DrinksCart';
 import drinks from '../drinks.json'
 import juice from '../juice.json'
 import beer from '../beer.json'
