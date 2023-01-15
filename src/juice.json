@@ -1,0 +1,47 @@
+[
+    {
+        "text": "Juice",
+        "drinks": [
+            {
+                "img": "https://media.dominos.ua/__sized__/menu/product_osg_image_category/2020/09/11/apple-thumbnail-960x960.png",
+                "title": "Rich Apple",
+                "ml": [
+                    "1 L"
+                ],
+                "id": 2,
+                "price": 80,
+                "value": "gaz"
+            },
+            {
+                "img": "https://media.dominos.ua/__sized__/menu/product_osg_image_category/2020/09/11/orange-thumbnail-960x960.png",
+                "title": "Rich Orange",
+                "ml": [
+                    "1 L"
+                ],
+                "id": 2,
+                "price": 80,
+                "value": "gaz"
+            },
+            {
+                "img": "https://media.dominos.ua/__sized__/menu/product_osg_image_category/2022/08/02/ban1-thumbnail-960x960.png",
+                "title": "Rich Bananastrawberry",
+                "ml": [
+                    "1 L"
+                ],
+                "id": 2,
+                "price": 80,
+                "value": "gaz"
+            },
+            {
+                "img": "https://media.dominos.ua/__sized__/menu/product_osg_image_category/2022/07/21/exo-thumbnail-960x960.png",
+                "title": "Rich Exotic",
+                "ml": [
+                    "1 L"
+                ],
+                "id": 2,
+                "price": 80,
+                "value": "gaz"
+            }
+        ]
+    }
+]
