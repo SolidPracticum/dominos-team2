@@ -1,19 +1,25 @@
+
+import { Route, Routes } from 'react-router-dom';
+import "./main.scss"
+import HomePage from "./page/HomePage";
 import './App.scss';
 import HomePage from './page/HomePage';
 import { Route, Routes } from "react-router-dom";
-import DrinksP from "./page/DrinksPage";
-import HeaderPromotion from './Components/HeaderPromotion/HeaderPromotion';
+import DrinksPage from './page/DrinksPage';
+import PromotionPage from './page/PromotionPage';
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/drinks" element={<DrinksP />} />
-        <Route path="/promotions" element={<HeaderPromotion/>}/>
+        <Route path="/drinks" element={<DrinksPage />} />
+        <Route path="/promotions" element={<PromotionPage/>}/>
       </Routes>
-  </div>
-  );
+
+    </div>
+  )
 }
+
 
 export default App;
