@@ -1,11 +1,11 @@
-import SimpleSlider from "../components/slider/Slider";
+import SimpleSlider from "../Components/slider/Slider"
 import pizza from "../pizza.json"
-import Cart from "../components/Cart/Cart"
+import Cart from "../Components/Cart/Cart"
 
 export default function HomePage() {
     return (
         <div>
-            <SimpleSlider />
+            <SimpleSlider/>
             <div className="cart-f">
                 {pizza.map((item) => <Cart key={item.id} {...item} />)}
             </div>
