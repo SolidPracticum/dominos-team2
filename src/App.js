@@ -1,6 +1,5 @@
 
 import { Route, Routes } from 'react-router-dom';
-import "./main.scss"
 import HomePage from "./page/HomePage";
 import './App.scss';
 import DrinksPage from './page/DrinksPage';

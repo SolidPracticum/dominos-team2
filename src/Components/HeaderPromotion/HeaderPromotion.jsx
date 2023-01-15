@@ -1,9 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { GiHamburgerMenu } from 'react-icons/gi'
+import { ImCross } from 'react-icons/im'
 import { Link } from 'react-router-dom';
 import logo from './Domino.svg'
-import burger from './burgerblack.png'
 import scss from './HeaderPromotion.module.scss'
 const HeaderPromotion = () => {
+    const [clicked, isClicked] = useState('')
+    const handleClicked = () => {
+        isClicked(!clicked);
+      }
     return (
         <div className={scss.header}>
             <div className="container">
@@ -32,7 +37,13 @@ const HeaderPromotion = () => {
                     </div>
                     <div className={scss.form_bottom}>
                         <Link>Увiйти</Link>
-                        <img src={burger} alt="menu" />
+                       <div className={scss.burger}>
+                       {!clicked ?
+            (< GiHamburgerMenu className={scss.icon}  onClick={handleClicked} />
+            ) : (
+              <ImCross className={scss.icon} onClick={handleClicked} />
+            )}
+                       </div>
                     </div>
                 </div>
             </div>

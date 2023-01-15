@@ -1,9 +1,9 @@
 import React from 'react';
-import DrinksCart from '../components/DrinksCart/DrinksCart';
 import drinks from '../drinks.json'
 import juice from '../juice.json'
 import beer from '../beer.json'
 import './Pages.scss'
+import DrinksCart from '../Components/DrinksCart/DrinksCart';
 const DrinksPage = () => {
      const category = [drinks, juice, beer]
     return (
