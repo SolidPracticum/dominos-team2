@@ -1,6 +1,6 @@
 * {
     text-decoration: none;
-
+   
 }
 
 .wrapper {
@@ -43,7 +43,10 @@
     grid-gap: 10px;
 
 }
-
+.navElements, .domino{
+   color: white;
+   text-decoration: none;
+}
 .phone:hover,
 .city:hover,
 .login:hover {
