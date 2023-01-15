@@ -4,7 +4,7 @@ import Cart from "../components/Cart/Cart"
 import asian from './../pizzaAsian.json'
 import bestPrice from './../pizzaBestPrice.json'
 import heroes from './../pizzaHeroes.json'
-export default function HomePage() {
+const  HomePage = () =>  {
     const category = [asian, bestPrice, heroes]
     return (
         <div>
@@ -22,3 +22,4 @@ export default function HomePage() {
         </div>
     )
 }
+export default HomePage
