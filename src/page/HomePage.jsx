@@ -2,9 +2,9 @@
 import asian from './../pizzaAsian.json'
 import bestPrice from './../pizzaBestPrice.json'
 import heroes from './../pizzaHeroes.json'
-import SimpleSlider from "../Components/slider/Slider"
-import Cart from '../Components/Cart/Cart'
-import Header from '../Components/Header/Header'
+import SimpleSlider from "../components/slider/Slider"
+import Cart from '../components/Cart/Cart'
+import Header from '../components/Header/Header'
 export default function HomePage() {
     const category = [asian, bestPrice, heroes]
     return (
