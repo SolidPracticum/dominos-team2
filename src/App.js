@@ -1,21 +1,24 @@
+
+import { Route, Routes } from 'react-router-dom';
+import "./main.scss"
+import HomePage from "./page/HomePage";
 import './App.scss';
-import HomePage from './page/HomePage';
-import { Route, Routes } from "react-router-dom";
-import DrinksP from "./page/DrinksPage";
 import PromotionMain from './Components/PromotionMain/PromotionMain';
 import SidesPage from './page/SidesPage';
+import DrinksPage from './page/DrinksPage';
 function App() {
   return (
-    <div className="App">
+    <div>
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/drinks" element={<DrinksP />} />
+        <Route path="/drinks" element={<DrinksPage />} />
         <Route path="/promotions" element={<PromotionMain/>}/>
         <Route path='/sides' element={<SidesPage/>}/>
-        
       </Routes>
-  </div>
-  );
+
+    </div>
+  )
 }
+
 
 export default App;
