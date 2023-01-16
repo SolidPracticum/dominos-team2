@@ -1,9 +1,9 @@
 
 import { Route, Routes } from 'react-router-dom';
-import "./main.scss"
 import HomePage from "./page/HomePage";
 import './App.scss';
 import DrinksPage from './page/DrinksPage';
+import PromotionPage from './page/PromotionPage';
 import SidesPage from './page/SidesPage';
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
     <div>
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/Promo" element={<h3>Promo</h3>} />
+        <Route path="/Promo" element={<PromotionPage/>} />
         <Route path="/Pizza" element={<h3>Pizza</h3>} />
         <Route path="/Drinks" element={<DrinksPage/>} />
         <Route path="/Sides" element={<SidesPage/>} />
