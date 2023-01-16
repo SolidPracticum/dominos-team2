@@ -58,7 +58,7 @@ function Header({ clicked, isClicked }) {
        
 
 
-        <Link to="/Promotion">
+        <Link to="/Promo">
           <li className={styles.navElements}>Promo</li>
         </Link>
 
