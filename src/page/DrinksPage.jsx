@@ -1,13 +1,15 @@
 import React from 'react';
-import drinks from '../drinks.json'
-import juice from '../juice.json'
-import beer from '../beer.json'
+import drinks from '../component/Array/drinks.json'
+import juice from '../component/Array/juice.json'
+import beer from '../component/Array/beer.json'
 import './Pages.scss'
 import DrinksCart from '../component/DrinksCart/DrinksCart';
+import Header from '../component/Header/Header';
 const DrinksPage = () => {
      const category = [drinks, juice, beer]
     return (
         <div>
+            <Header/>
             {category.map((arr) =>
                 arr.map((item) =>
                     <div className='MAIN'>

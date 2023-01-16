@@ -1,6 +1,6 @@
 import React from 'react';
-import imgRobot from './DominosMainPR.jpg'
-import imgCoke from './DominosMainPR2.jpg'
+import imgRobot from './img/DominosMainPR.jpg'
+import imgCoke from './img/DominosMainPR2.jpg'
 import './MainPr.scss'
 const PromotionMain = () => {
     return (
