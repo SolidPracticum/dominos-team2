@@ -1,10 +1,11 @@
-import Header from "../Components/Header/Header"
-import SimpleSlider from "../Components/slider/Slider";
-import Cart from "../Components/Cart/Cart"
+
 import asian from './../pizzaAsian.json'
 import bestPrice from './../pizzaBestPrice.json'
 import heroes from './../pizzaHeroes.json'
-const  HomePage = () =>  {
+import SimpleSlider from "../component/slider/Slider"
+import Cart from '../component/Cart/Cart'
+import Header from '../component/Header/Header'
+export default function HomePage() {
     const category = [asian, bestPrice, heroes]
     return (
         <div>
@@ -22,4 +23,3 @@ const  HomePage = () =>  {
         </div>
     )
 }
-export default HomePage

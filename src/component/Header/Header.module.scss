@@ -1,6 +1,6 @@
 * {
     text-decoration: none;
-
+   
 }
 
 .wrapper {
@@ -43,7 +43,10 @@
     grid-gap: 10px;
 
 }
-
+.navElements, .domino{
+   color: white;
+   text-decoration: none;
+}
 .phone:hover,
 .city:hover,
 .login:hover {
@@ -190,6 +193,7 @@ li {
     }
     .wrapper {
         padding: 0px 0px;
+        margin-bottom: 5vh;
     }
 
 .pizza{

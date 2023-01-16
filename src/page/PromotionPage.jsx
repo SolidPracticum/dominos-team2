@@ -1,5 +1,5 @@
 import React from 'react';
-import HeaderPromotion from '../Components/HeaderPromotion/HeaderPromotion';
+import HeaderPromotion from '../component/HeaderPromotion/HeaderPromotion';
 
 const PromotionPage = () => {
     return (
