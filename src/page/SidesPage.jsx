@@ -1,9 +1,9 @@
 import React from 'react';
-import boxes from './../sidesBoxes.json'
-import sides from './../sides.json'
-import bread from './../sidesBread.json'
-import chicken from './../sidesChicken.json'
-import sauses from './../sidesSauses.json'
+import boxes from './../component/Array/sidesBoxes.json'
+import sides from './../component/Array/sides.json'
+import bread from './../component/Array/sidesBread.json'
+import chicken from './../component/Array/sidesChicken.json'
+import sauses from './../component/Array/sidesSauses.json'
 import Header from '../component/Header/Header';
 import SidesCart from '../component/SidesCart/SidesCart';
 const SidesPage = () => {
