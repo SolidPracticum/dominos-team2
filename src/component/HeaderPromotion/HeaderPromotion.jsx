@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { GiHamburgerMenu } from 'react-icons/gi'
 import { ImCross } from 'react-icons/im'
 import { Link } from 'react-router-dom';
-import logo from './Domino.svg'
+import logo from './img/Domino.svg'
 import scss from './HeaderPromotion.module.scss'
 const HeaderPromotion = () => {
     const [clicked, isClicked] = useState('')
