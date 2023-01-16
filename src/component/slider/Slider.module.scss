@@ -47,10 +47,12 @@
 }
 
 @media (max-width:800px){
-    img{
+    .imageAdaptive{
     width: 90%;
     height: 100%;
     margin:6% 0% 0% 5%;
+    height: 40vh;
+    margin: 0% 0% 0% 5%;
     }
     .btn{
         display: none;

@@ -1,6 +1,5 @@
 import scss from "./Slider.module.scss"
 import React, { Component } from "react";
-
 import Slider from "react-slick"
 import "./slick.scss";
 import "./slick-theme.scss";
@@ -30,8 +29,6 @@ export default class SimpleSlider extends Component {
             </div>)
           }
         </Slider>
-        <div>
-        </div>
       </div>
     );
   };
