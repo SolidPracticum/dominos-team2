@@ -1,7 +1,7 @@
 
-import asian from './../pizzaAsian.json'
-import bestPrice from './../pizzaBestPrice.json'
-import heroes from './../pizzaHeroes.json'
+import asian from './../component/Array/pizzaAsian.json'
+import bestPrice from './../component/Array/pizzaBestPrice.json'
+import heroes from './../component/Array/pizzaHeroes.json'
 import SimpleSlider from "../component/slider/Slider"
 import Cart from '../component/Cart/Cart'
 import Header from '../component/Header/Header'
