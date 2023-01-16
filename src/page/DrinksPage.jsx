@@ -2,7 +2,6 @@ import React from 'react';
 import drinks from '../component/Array/drinks.json'
 import juice from '../component/Array/juice.json'
 import beer from '../component/Array/beer.json'
-import './Pages.scss'
 import DrinksCart from '../component/DrinksCart/DrinksCart';
 import Header from '../component/Header/Header';
 const DrinksPage = () => {

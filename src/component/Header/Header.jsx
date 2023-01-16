@@ -48,7 +48,7 @@ function Header({ clicked, isClicked }) {
       <div className={styles.bottom}>
        <div>
       
-       <Link to="/Domino" className={styles.pizza}>
+       <Link to="/" className={styles.pizza}>
        <img  src={pizza} alt="" />
           <h3 className={styles.domino}>Domino's Pizza</h3> 
           
@@ -62,7 +62,7 @@ function Header({ clicked, isClicked }) {
           <li className={styles.navElements}>Promo</li>
         </Link>
 
-        <Link to="/Pizza">
+        <Link to="/">
           <li className={styles.navElements}>Pizza</li>
         </Link>
 
