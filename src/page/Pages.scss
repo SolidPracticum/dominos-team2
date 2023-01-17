@@ -5,3 +5,67 @@
     font-weight: 700;
 padding: 20px;
 }
+.card img {
+            object-fit: cover;
+            height: 100%;
+            -webkit-transition: all .2s linear;
+            -o-transition: all .2s linear;
+            transition: all .2s linear;
+            border-radius: 15px;
+        }
+.card{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 15px;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 25%;
+    height: 90%;
+    border: 1px solid #e0e0e0;
+    position: relative;
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    -webkit-box-shadow: 0 0 15px rgb(0 0 0 / 10%);
+    box-shadow: 0 0 15px rgb(0 0 0 / 10%);
+    background: #fff;
+    border-radius: 25px;
+    padding: 10px;
+    font-family: Open Sans,
+    sans-serif;
+
+    p {
+        font-size: 14px;
+        font-weight: 600;
+        letter-spacing: .05em;
+        text-decoration: none;
+        color: #222;
+    }
+
+    border: 1px solid rgb(243, 236, 236);
+    transition: all .3s ease;
+}
+
+.btnS{
+    outline: none;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    flex-grow: 1;
+    border-radius: 15px;
+    padding: 0;
+    margin: 0;
+    height: 30px;
+    border: none;
+    background-color: #4f4f4f;
+    color: white;
+    font-family: Open Sans, sans-serif;
+    -webkit-transition: background .3s linear;
+    -o-transition: background .3s linear;
+    transition: background .3s linear;
+    width: 90%;
+    margin: 2% 2% 4% 4%;
+}
