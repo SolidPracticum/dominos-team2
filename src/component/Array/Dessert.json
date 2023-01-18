@@ -1,0 +1,22 @@
+[
+    {
+        "desserts":[
+            {
+                "id": 1,
+                "img": "https://media.dominos.ua/__sized__/menu/product_osg_image_category/2022/12/22/PRODUCT-IMAGS-thumbnail-960x960-70.jpg",
+                "title":"Apricot rolls",
+                "gramm":"276",
+                "price": 110,
+                "type": ["standart"]
+            },
+            {
+                "id": 2,
+                "img": "https://media.dominos.ua/__sized__/menu/product_osg_image_category/2022/12/22/PRODUCT-IMAGS_1-thumbnail-960x960-70.jpg",
+                "title":"Apricot rolls",
+                "gramm":"276",
+                "price": 110
+
+            }
+        ]
+    }
+]

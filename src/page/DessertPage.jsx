@@ -1,20 +1,21 @@
-import Dessert from "../Dessert.json"
-import DessertCart from "../component/DessertCart/DessertCart"
+import React from "react"
+import desserts from "./../component/Array/Dessert.json"
 import Header from "../component/Header/Header"
-
+import DessertCart from "../component/DessertCart/DessertCart"
 const DessertPage = () => {
-  const dessert = [Dessert]
+    const des = [desserts]
     return(
         <div>
             <Header/>
-            {dessert.map((arr) =>
-            arr.map((item) =>
-                <div>
-                    <div className="cart">
-                        {item.Dessert.map((i) => <DessertCart {...i} /> )}
-                    </div>
+            {des.map((arr) =>
+                arr.map((item) =>
+                <div className='MAIN'>
+                <p className='text'>{item.text}</p>
+                <div className='cart-f'>
+                    {item.desserts.map((i) => <DessertCart {...i} />)}
                 </div>
-            )
+                   </div>
+                )
             )}
         </div>
     )
