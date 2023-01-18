@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Cookie&family=Noto+Sans:ital,wght@0,400;0,700;1,500&family=PT+Sans:wght@400;700&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+.wrapper {
+  justify-content: space-between;
+  padding: 2em 3em 2em ;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 330px;
+  background-color: #000;
+  color: #fff;
+
+}
+
+a:focus {
+  color: #fff;
+}
+
+.top {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+.first {
+  width: 25%;
+  padding-left: 3.2em;
+}
+
+.first a {
+  display: flex;
+}
+
+.second {
+  width: 25%;
+  margin-right: 2em;
+
+}
+
+.tracker{
+  margin-right:10px;
+}
+.third {
+  width: 25%;
+}
+
+.first,
+.second,
+.third {
+
+  font-family: Roboto;
+  font-size: 13px;
+  line-height: 2;
+}
+
+.first,
+.second,
+.third {
+  a {
+    color: #8d8d8d;
+    text-decoration: none;
+    font-family: Roboto;
+    position: relative;
+    font-size: 12px;
+    line-height: 2;
+  }
+}
+.fourth{
+  margin-top: 2em;
+}
+.phoneNumber {
+  color: #8d8d8d;
+  text-decoration: none;
+  font-family: Roboto;
+  position: relative;
+  font-size: 14px;
+  line-height: 2;
+}
+
+.bottom {
+  font-size: 13px;
+  margin-left: 2em;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  justify-content: space-evenly;
+  color: #8d8d8d;
+
+}
+
+.site {
+  a {
+    color: #8d8d8d;
+    text-decoration: none;
+    display: block;
+    text-transform: uppercase;
+    font-size: .9em;
+  }
+}
+
+.title {
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-top: 1em;
+  margin-bottom: 0.3em;
+}
+
+.titleDomino {
+  a {
+    color: #fff;
+    font-family: Roboto;
+    font-weight: bald;
+    font-size: 1.5em;
+    font-weight: 900;
+  }
+}
+
+.text {
+  color: rgb(141, 141, 141);
+  width: 15em;
+  font-size: normal;
+  margin-top: 10px;
+
+}
+
+.one {
+  padding-top: 5em;
+  width: 20%;
+}
+
+.two {
+  margin-right: 50px;
+  padding-top: 2em;
+}
+
+.three {
+  img {
+    margin-right: 20px;
+  }
+}
+
+
+
+.icons {
+  img {
+    border-radius: 7px;
+  }
+}
+
+.three {
+  width: 22%;
+  margin-right: 50px;
+  margin-top: 2em;
+}
+
+.visa {
+  margin-bottom: 15px;
+}
+.application{
+  margin-bottom: 10px;
+}
+.icons {
+  img {
+    margin-right: 1px;
+  }
+}
+.payments{
+  margin-bottom: 10px;
+}
+.follow {
+  margin-right: 50px;
+  margin-top: 2.3em;
+}
+
+.follow {
+  img {
+    margin-right: 15px;
+  }
+}
+
+.facebook {
+  margin-right: 10px;
+}
+
+
+
+
+@media screen and (max-width: 1200px) {
+  *{
+      padding: 0px;
+  }
+ .second{
+    display: block;
+    flex-direction: column;
+  }
+
+
+.bottom{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2em;
+}
+}
+@media(max-width:820){
+  .wrapper{
+    padding: 0px 0px;
+    width: 50%;
+  }
+}

@@ -1,9 +1,8 @@
-import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
+import React from 'react'
+import {Link} from 'react-router-dom'
 import styles from './Header.module.scss'
-import { GiHamburgerMenu } from 'react-icons/gi'
-import { ImCross } from 'react-icons/im'
-
+import {GiHamburgerMenu} from 'react-icons/gi'
+import {ImCross} from 'react-icons/im'
 import phone from "../../assests/phone.png"
 import shopping from "../../assests/shopping.png"
 import pizza from "../../assests/pizza.png"
@@ -100,7 +99,8 @@ function Header({ clicked, isClicked }) {
             (< GiHamburgerMenu className={styles.icon} onClick={handleClicked} />
             ) : (
               <ImCross className={styles.icon} onClick={handleClicked} />
-            )}
+            )
+            }
         </div>
 
 
