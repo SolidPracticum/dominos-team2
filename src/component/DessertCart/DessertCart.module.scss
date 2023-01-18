@@ -1,24 +1,24 @@
-.cart-f {
+.cart {
     display: flex;
     margin-bottom: 10px;
     display: grid;
     grid-template-columns: repeat(4, minmax(250px, 1fr));
     justify-content: space-evenly;
 }
-.cart_drinks:hover {
+.cartSides:hover {
     -webkit-box-shadow: 0 0 15px rgb(0 0 0 / 50%);
     box-shadow: 0 0 15px rgb(0 0 0 / 50%);
 }
 
-.cart_drinks:hover img {
+.cartSides:hover img {
     width: 100%;
     -webkit-transform: scale(1.01);
     -ms-transform: scale(1.01);
     transform: scale(1.01);
 }
 
-.cart_drinks {
-    .cart_img {
+.cartSides {
+    .cartImg {
         position: relative;
         max-height: 176px;
         align-items: center;
@@ -88,53 +88,16 @@
     flex-direction: column;
 }
 
-.cart_b {
+.cart_sides {
     width: 100%;
     height: 100%;
     div {
         margin-bottom: 10px;
     }
 
-    .cart_type {
+    
 
-        display: flex;
-        border: 1px solid rgba(0, 0, 0, .08);
-        border-radius: 15px;
-        background-color: #f8f8f8;
-
-        button {
-            outline: none;
-            cursor: pointer;
-            -webkit-user-select: none;
-            -moz-user-select: none;
-            -ms-user-select: none;
-            user-select: none;
-            flex-grow: 1;
-            border-radius: 15px;
-            padding: 0;
-            margin: 0;
-            height: 30px;
-            border: none;
-            background-color: #f8f8f8;
-            font-family: Open Sans, sans-serif;
-        }
-
-        button.active {
-
-            background: #4f4f4f;
-            color: #fff;
-            margin: 0;
-            -ms-flex-positive: 1;
-            flex-grow: 1;
-            border-radius: 15px;
-            border: none;
-            -webkit-transition: background .3s linear;
-            -o-transition: background .3s linear;
-            transition: background .3s linear;
-        }
-    }
-
-    .cart_price {
+    .price {
         display: -ms-grid;
         display: grid;
         -ms-grid-columns: 1fr 5px 1fr;
@@ -177,24 +140,23 @@
 
 
 @media (max-width: 990px) {
-    .cart-f{
+    .cart{
    display: grid;
    grid-template-columns: repeat(3,minmax(250px,1fr));
     }
 }
 @media (max-width: 765px) {
-    .cart-f{
+    .cart{
         display: grid;
         grid-template-columns: repeat(2,minmax(200px,1fr));
          }
 }
 @media (max-width: 576px) {
-    .cart-f{
+    .cart{
         display: block;
         width: 100%;
         flex-direction: column;
-        .cart{
-            width: 100%;
+      
             .cart_img{
                 img{
                     max-height: 176px;
@@ -202,4 +164,3 @@
             }
         }
     }
-}

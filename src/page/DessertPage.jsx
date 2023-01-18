@@ -1,26 +1,23 @@
 import Dessert from "../Dessert.json"
+import DessertCart from "../component/DessertCart/DessertCart"
+import Header from "../component/Header/Header"
 
 const DessertPage = () => {
-    const deserts = [Dessert]
+  const dessert = [Dessert]
     return(
         <div>
-            {deserts.map((arr) =>
+            <Header/>
+            {dessert.map((arr) =>
             arr.map((item) =>
-                <div className="main">
-                    <div className="card">
-                        <img src={item.img} alt="dessert"/> {item.g}  g
-                        <p>{item.title}</p>
-                        <button className="btnS">standart</button>
-                        <div>
-                        {item.price} 
-                        <button>To Cart</button>
-                        </div>
+                <div>
+                    <div className="cart">
+                        {item.Dessert.map((i) => <DessertCart {...i} /> )}
                     </div>
                 </div>
             )
             )}
-        </div>  
-    );
-};
+        </div>
+    )
+}
 
-export default DessertPage;
+export default DessertPage
