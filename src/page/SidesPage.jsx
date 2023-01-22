@@ -10,16 +10,18 @@ const SidesPage = () => {
     const category = [boxes, sides, chicken, bread, sauses]
     return (
         <div>
-            <Header/>
-            {category.map((arr) =>
-                arr.map((item) =>
-                    <div className='MAIN'>
-                        <p className='text'>{item.text}</p>
-                        <div className='cart-f'>
-                            {item.sides.map((i) => <SidesCart {...i} />)}
+            <Header />
+            <div className="content">
+                {category.map((arr) =>
+                    arr.map((item) =>
+                        <div className='MAIN'>
+                            <p className='text'>{item.text}</p>
+                            <div className='cart-f'>
+                                {item.sides.map((i) => <SidesCart {...i} />)}
+                            </div>
                         </div>
-                    </div>
-                ))}
+                    ))}
+            </div>
         </div>
     );
 };
