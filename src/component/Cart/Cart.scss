@@ -60,8 +60,7 @@
     background: #fff;
     border-radius: 25px;
     padding: 10px;
-    font-family: Open Sans,
-    sans-serif;
+    font-family: Open Sans, sans-serif;
 
     p {
         font-size: 14px;
@@ -123,6 +122,9 @@
             -o-transition: background .3s linear;
             transition: background .3s linear;
         }
+    }
+
+    .cart-sizes {
 
         display: flex;
         border: 1px solid rgba(0, 0, 0, .08);
@@ -155,7 +157,6 @@
         }
 
         button.active {
-
             background: #4f4f4f;
             color: #fff;
             margin: 0;
