@@ -5,19 +5,21 @@ import beer from '../component/Array/beer.json'
 import DrinksCart from '../component/DrinksCart/DrinksCart';
 import Header from '../component/Header/Header';
 const DrinksPage = () => {
-     const category = [drinks, juice, beer]
+    const category = [drinks, juice, beer]
     return (
         <div>
-            <Header/>
-            {category.map((arr) =>
-                arr.map((item) =>
-                    <div className='MAIN'>
-                        <p className='text'>{item.text}</p>
-                        <div className='cart-f'>
-                            {item.drinks.map((i) => <DrinksCart {...i} />)}
+            <Header />
+            <div className="content">
+                {category.map((arr) =>
+                    arr.map((item) =>
+                        <div className='MAIN'>
+                            <p className='text'>{item.text}</p>
+                            <div className='cart-f'>
+                                {item.drinks.map((i) => <DrinksCart {...i} />)}
+                            </div>
                         </div>
-                    </div>
-                ))}
+                    ))}
+            </div>
         </div>
     );
 };

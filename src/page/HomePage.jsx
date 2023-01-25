@@ -10,6 +10,7 @@ export default function HomePage() {
     return (
         <div>
             <Header/>
+            <div className="content">
             <SimpleSlider />
             {category.map((arr) =>
                 arr.map((item) =>
@@ -20,6 +21,7 @@ export default function HomePage() {
                         </div>
                     </div>
                 ))}
+            </div>
         </div>
     )
 }

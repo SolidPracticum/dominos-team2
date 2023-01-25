@@ -17,7 +17,6 @@ padding: 20px;
 }
 .cart-f{
     padding:  0 10px;
-    
     display: flex;
     margin-bottom: 10px;
     display: grid;
@@ -25,7 +24,9 @@ padding: 20px;
     grid-gap: 15px;
     justify-content: space-evenly;
 }
-
+.content{
+    margin-top: 150px;
+}
 
 
 
@@ -50,5 +51,4 @@ padding: 20px;
         flex-direction: column;
 
     }
-    
 }
