@@ -49,7 +49,7 @@ function Header({ clicked, isClicked }) {
        <div>
       
        <Link to="/" className={styles.pizza}>
-       <img  src={pizza} alt="" />
+       <img  src={pizza} alt="Domino`s Pizza" />
           <h3 className={styles.domino}>Domino's Pizza</h3> 
           
         </Link>
@@ -62,7 +62,7 @@ function Header({ clicked, isClicked }) {
           <li className={styles.navElements}>Promo</li>
         </Link>
 
-        <Link to="/">
+        <Link to="/Pizza">
           <li className={styles.navElements}>Pizza</li>
         </Link>
 

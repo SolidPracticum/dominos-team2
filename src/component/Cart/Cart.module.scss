@@ -1,18 +1,18 @@
 
-.cart:hover {
+.cart_pizza:hover {
     -webkit-box-shadow: 0 0 15px rgb(0 0 0 / 50%);
     box-shadow: 0 0 15px rgb(0 0 0 / 50%);
 }
 
-.cart:hover img {
+.cart_pizza:hover img {
     width: 100%;
     -webkit-transform: scale(1.01);
     -ms-transform: scale(1.01);
     transform: scale(1.01);
 }
 
-.cart {
-    .cart_img {
+.cart_pizza {
+    .cart_img_pizza {
         position: relative;
         display: flex;
         align-items: center;
@@ -80,12 +80,12 @@
     flex-direction: column;
 }
 
-.cart_b {
+.cart_b_pizza {
     div {
         margin-bottom: 10px;
     }
 
-    .cart-sizes {
+    .cart_sizes_pizza {
         button {
             outline: none;
             cursor: pointer;
@@ -122,7 +122,7 @@
         background-color: #f8f8f8;
     }
 
-    .cart-type {
+    .cart_type_pizza {
 
         display: flex;
         border: 1px solid rgba(0, 0, 0, .08);
@@ -148,7 +148,7 @@
 
         button.active {
 
-            background: #4f4f4f;
+           background: #4f4f4f;
             color: #fff;
             margin: 0;
             -ms-flex-positive: 1;
@@ -163,7 +163,7 @@
 
 
 
-    .cart-price {
+    .cart_price_pizza {
         display: -ms-grid;
         display: grid;
         -ms-grid-columns: 1fr 10px 1fr;
@@ -208,28 +208,28 @@
 
 
 
-@media (max-width: 990px) {
-    .cart-f {
-        display: grid;
-        grid-template-columns: repeat(3, minmax(250px, 1fr));
-    }
-}
+// @media (max-width: 990px) {
+//     .cart-f {
+//         display: grid;
+//         grid-template-columns: repeat(3, minmax(250px, 1fr));
+//     }
+// }
 
-@media (max-width: 765px) {
-    .cart-f {
-        display: grid;
-        grid-template-columns: repeat(2, minmax(200px, 1fr));
-    }
-}
+// @media (max-width: 765px) {
+//     .cart-f {
+//         display: grid;
+//         grid-template-columns: repeat(2, minmax(200px, 1fr));
+//     }
+// }
 
-@media (max-width: 576px) {
-    .cart-f {
-        display: block;
-        width: 100%;
-        flex-direction: column;
+// @media (max-width: 576px) {
+//     .cart-f {
+//         display: block;
+//         width: 100%;
+//         flex-direction: column;
 
-        .cart {
-            width: 100%;
-        }
-    }
-}
+//         .cart {
+//             width: 100%;
+//         }
+//     }
+// }
