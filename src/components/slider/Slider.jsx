@@ -1,5 +1,5 @@
-import scss from "./Slider.module.scss"
 import React, { Component } from "react";
+import scss from "./Slider.module.scss"
 
 import Slider from "react-slick"
 import "./slick.scss";
