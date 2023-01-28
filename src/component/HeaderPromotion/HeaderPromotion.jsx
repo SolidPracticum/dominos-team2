@@ -49,11 +49,11 @@ const HeaderPromotion = () => {
             </div>
             <div className={scss.column_bottom}>
                 <div className={scss.header_center}>
-                    <Link to='/promotions'>Акцii</Link>
-                    <Link>Пiца</Link>
-                    <Link>Напої</Link>
-                    <Link>Сайди</Link>
-                    <Link>Десерти</Link>
+                    <Link to='/Promo'>Акцii</Link>
+                    <Link to='/Pizza'>Пiца</Link>
+                    <Link to='/Drinks'>Напої</Link>
+                    <Link to='/Sides'>Сайди</Link>
+                    <Link to='/Desserts'>Десерти</Link>
                 </div>
             </div>
         </div>
