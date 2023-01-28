@@ -1,5 +1,5 @@
 import { useState } from "react"
-import scss from './Cart.module.scss'
+import scss from './PizzaCart.module.scss'
 const Cart = ({img, gramm, title, sizes, type, price}) => {
     const [activeType, setActiveType] = useState(0);
     const [activeSize, setActiveSize] = useState(0)
