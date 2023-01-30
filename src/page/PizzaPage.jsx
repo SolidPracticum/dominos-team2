@@ -17,7 +17,7 @@ const PizzaPage = () => {
                         <div className={scss.main_grid}>
                             <p className={scss.text}>{item.text}</p>
                             <div className={scss.cart_f}>
-                                {item.pizzas.map((i) => <Cart {...i} />)}
+                                {item.pizzas.map((i) => <Cart {...i} key={i.id} />)}
                             </div>
                         </div>
                     ))}

@@ -7,6 +7,7 @@
                 "gramm": "25 g",
                 "title": "Spicy sauce 25g",
                 "price": 15,
+                "id": 1,
                 "type": ["DIP"]
             },
             {
@@ -14,6 +15,7 @@
                 "gramm": "25 g",
                 "title": "Sauce Marinara 25g",
                 "price": 15,
+                "id": 2,
                 "type": ["DIP"]
             },
             {
@@ -21,6 +23,7 @@
                 "gramm":"25 g",
                 "title": "Sauce BBQ 25g",
                 "price": 15,
+                "id": 3,
                 "type": ["DIP"]
             },
             {
@@ -28,6 +31,7 @@
                 "gramm": "25 g",
                 "title": "Garlic sauce 25g",
                 "price": 15,
+                "id": 4,
                 "type": ["DIP"]
             },
             {
@@ -35,6 +39,7 @@
                 "gramm": "100 g",
                 "title": "Set of sauces (garlic, spicy, barbecue, marinara)",
                 "price": 50,
+                "id": 5,
                 "type": ["DIP"]
             }
         ]

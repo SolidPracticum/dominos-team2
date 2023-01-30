@@ -1,17 +1,20 @@
-.container{
+.container {
     width: 80%;
     margin: 0 auto;
 }
-    
-.text{
+
+$fn: Roboto, sans-serif;
+
+.text {
     text-align: center;
     font-size: 24px;
     font-weight: 600;
-    font-family: Roboto, sans-serif;
-padding: 20px;
+    font-family: $fn;
+    padding: 20px;
 }
-.cart_f{
-    padding:  0 10px;
+
+.cart_f {
+    padding: 0 10px;
     display: flex;
     margin-bottom: 10px;
     display: grid;
@@ -19,7 +22,8 @@ padding: 20px;
     grid-gap: 15px;
     justify-content: space-evenly;
 }
-.content{
+
+.content {
     margin-top: 150px;
 }
 
@@ -40,7 +44,7 @@ padding: 20px;
 }
 
 @media (max-width: 576px) {
-    .cart_f{
+    .cart_f {
         display: block;
         width: 100%;
         flex-direction: column;

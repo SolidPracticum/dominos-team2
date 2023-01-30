@@ -10,6 +10,8 @@
     transform: scale(1.01);
 }
 
+$fn: Open Sans, sans-serif;
+
 .cart_pizza {
     .cart_img_pizza {
         position: relative;
@@ -52,8 +54,7 @@
     background: #fff;
     border-radius: 25px;
     padding: 10px;
-    font-family: Open Sans,
-    sans-serif;
+    font-family: $fn;
 
     p {
         font-size: 14px;
@@ -104,7 +105,6 @@
             height: 30px;
             border: none;
             background-color: #f8f8f8;
-            font-family: Open Sans, sans-serif;
         }
 
         button.active {
@@ -182,7 +182,6 @@
             font-size: 18px;
             cursor: pointer;
             font-weight: 700;
-            font-family: Open Sans, sans-serif;
             -webkit-transition: all .3s;
             -o-transition: all .3s;
             transition: all .3s;
@@ -196,7 +195,6 @@
 
     div {
         margin: 20px 0 0 1px;
-        font-family: Open Sans, sans-serif;
         display: -ms-flexbox;
         display: flex;
         -ms-flex-align: center;
@@ -204,30 +202,3 @@
     }
 }
 
-
-
-// @media (max-width: 990px) {
-//     .cart-f {
-//         display: grid;
-//         grid-template-columns: repeat(3, minmax(250px, 1fr));
-//     }
-// }
-
-// @media (max-width: 765px) {
-//     .cart-f {
-//         display: grid;
-//         grid-template-columns: repeat(2, minmax(200px, 1fr));
-//     }
-// }
-
-// @media (max-width: 576px) {
-//     .cart-f {
-//         display: block;
-//         width: 100%;
-//         flex-direction: column;
-
-//         .cart {
-//             width: 100%;
-//         }
-//     }
-// }

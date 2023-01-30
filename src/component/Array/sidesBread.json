@@ -7,6 +7,7 @@
                 "gramm": "343 п",
                 "title": "Bread with pulled beef and onion",
                 "price": 134,
+                "id": 1,
                 "type": ["Standart"]
             },
             {
@@ -14,6 +15,7 @@
                 "gramm": "335 g",
                 "title": "Bread with ham and mushrooms",
                 "price": 134,
+                "id": 2,
                 "type": ["Standart"]
             },
             {
@@ -21,6 +23,7 @@
                 "gramm": "338 g",
                 "title": "Bread with pepperoni, munich sausages and mustard",
                 "price": 134,
+                "id": 3,
                 "type": ["Standart"]
             },
             {
@@ -28,6 +31,7 @@
                 "gramm": "312 g",
                 "title": "Bread with bavarian sausages and tomatoes",
                 "price": 134,
+                "id": 4,
                 "type": ["Standart"]
             },
             {
@@ -35,6 +39,7 @@
                 "gramm": "303 g",
                 "title": "Bread with spinach and feta",
                 "price": 134,
+                "id": 5,
                 "type": ["Standart"]
             },
             {
@@ -42,6 +47,7 @@
                 "gramm": "305 g",
                 "title": "Bread with bacon and jalapenos",
                 "price": 134,
+                "id": 6,
                 "type": ["Standart"]
             },
             {
@@ -49,6 +55,7 @@
                 "gramm": "190 g",
                 "title": "Сheese bread",
                 "price": 114,
+                "id": 7,
                 "type": ["Standart"]
             },
             {
@@ -56,6 +63,7 @@
                 "gramm": "160 g",
                 "title": "Parmesan bites",
                 "price": 99,
+                "id": 8,
                 "type": ["Standart", "Double"]
             }
         ]

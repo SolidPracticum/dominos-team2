@@ -7,6 +7,7 @@
                 "gramm": "260 g",
                 "title": "Baked potatoes with mushrooms (BBQ sauce, Potato slices, Mushrooms, Onion, Gravy (Burger sauce))",
                 "price": 130,
+                "id": 1,
                 "type": ["Standart"]
             },
             {
@@ -14,6 +15,7 @@
                 "gramm": "291 g",
                 "title": "Baked potatoes with sausages (BBQ sauce, Potato slices, Bavarian sausages, Bacon, Cheddar, Gravy (Burger sauce))",
                 "price": 145,
+                "id": 2,
                 "type": ["Standart"]
             },
             {
@@ -21,6 +23,7 @@
                 "gramm": "190 g",
                 "title": "Potato slices",
                 "price": 89,
+                "id": 3,
                 "type": ["Standart", "Double"]
             },
             {
@@ -28,6 +31,7 @@
                 "gramm": "180 g",
                 "title": "Oven-baked french fries",
                 "price": 89,
+                "id": 4,
                 "type": ["Standart", "Double"]
             }
         ]
