@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import {Link} from "react-router-dom"
 import styles from "./Footer.module.scss"
 import comment from "../../assests/comment.png"
 import facebook from "../../assests/facebook.png"
@@ -27,12 +28,12 @@ const Footer = () => {
                         </div>
                         {isOpenDomino && <div className={styles.firstColumn}>
                         
-                            <a href="https://dominos.ua/uk/kyiv/Pizza/">Menu</a>
-                            <a href="https://dominos.ua/uk/kyiv/where_to_buy/">Pizzerias</a>
-                            <a href="https://biz.dominos.ua/">Franchising</a>
-                            <a href="https://media.dominos.ua/allergens_info/allergenyukr.pdf">Information about the content of<br />
-                                allergens and nutritional value</a>
-                            <a href="https://fitel.io/">Food safety policy</a>
+                        <Link to="/Menu"><li>Menu</li></Link>
+                        <Link to="/Pizzerias"><li>Pizzerias</li></Link>
+                        <Link to="/Franchising"><li>Franchising</li></Link>
+                        <Link to="/Information about"><li>Informaton about the content of allergens and
+                            nutritional value</li></Link>
+                            <Link to="/Food safety"><li>Food safety Policy</li></Link>
                         </div>}
                     
                 </div>
@@ -46,7 +47,7 @@ const Footer = () => {
                     </div>
                     {isOpenServices && <div className={styles.secondColumn}>
                         <img className={styles.tracker} width={25} src={comment} alt="comment" />
-                        <a href="https://dominos.ua/en/kyiv/tracker/">Pizza Tracker</a>
+                        <Link to="/Pizza Tracker">Pizza tracker</Link>
                     </div>}
                     
                 </div>
@@ -61,13 +62,12 @@ const Footer = () => {
                         {isOpenContacts && <div className={styles.thirdColumn}>
 
                             <div>
-                                <a href="https://dominos.ua/en/kyiv/">info@dominos.ua</a>
+                            <Link to="/Info">info@dominos.ua</Link>
                             </div>
                             <div>
-                                <a href="https://dominos.ua/en/kyiv/feedback/">Send complaint</a>
+                            <Link to="/Complaint">Send complaint</Link>
                             </div>
-                            <div></div>
-                            <a href="tel:+389442221111" className={styles.phoneNumber} target="self" itemProp="telephone" content="0442 222 1111">0442 222 11 11</a>
+                            <Link to="tel:+389442221111" className={styles.phoneNumber} target="self" itemProp="telephone" content="0442 222 1111">0442 222 11 11</Link>
                         </div>}
                     
                 </div>
@@ -75,7 +75,7 @@ const Footer = () => {
                 <div className={styles.fourth}>
                     <div className={styles.titleDomino}>
                         <img className={styles.domino} src={pizza} alt="domino" />
-                        <a href="https://dominos.ua/en/kyiv/">Domino's Pizza</a>
+                        <Link to="/Domino`s Pizza">Domino`s Pizza</Link>
                     </div>
                     <div class={styles.text}>© 2023 Domino's Pizza Ukraine</div>
                 </div>
@@ -84,18 +84,18 @@ const Footer = () => {
             <div className={styles.bottom}>
                 <div className={styles.one}>
                     <div className={styles.site}>
-                        <a href="https://fitel.io/">SITE DEVELOPED BY FITEL.IO</a>
+                        <Link to="https://fitel.io/">SITE DEVELOPED BY FITEL.IO</Link>
                     </div>
                 </div>
                 <div className={styles.two}>
                     <div className={styles.application}>DOWNLOAD APPLICATION</div>
                     <div className={styles.icons}>
-                        <a href="https://apps.apple.com/ua/app/dominos-pizza-ukraine/id744229913?ign-mpt=uo%3D4">
-                            <img className={styles.appStore} src={appStore} alt="appStore" /> </a>
-                        <a href="https://play.google.com/store/apps/details?id=ua.com.coxo.dominos">
-                            <img className={styles.googlePlay} src={googlePlay} alt="googlePlay" /></a>
-
-                    </div>
+                    <Link to="/AppStore">
+                            <img className={styles.appStore} src={appStore} alt="appStore" /> 
+                            </Link>
+                       <Link to="/googlePlay">
+                            <img className={styles.googlePlay} src={googlePlay} alt="googlePlay" /></Link>
+                           </div>
 
                 </div>
                 <div className={styles.three}>
@@ -106,12 +106,12 @@ const Footer = () => {
                 </div>
                 <div className={styles.follow}>
                     <div className={styles.social}>FOLLOW</div>
-                    <a href="https://www.facebook.com/DominosPizzaUkraine/"> <img className={styles.facebook} width={13} src={facebook} alt="facebook" /> </a>
-                    <a href="https://www.youtube.com/dominospizzaua"> <img className={styles.youtube} width={25} src={youtube} alt="youtube" /> </a>
+                    <Link to="/facebook"> <img className={styles.facebook} width={13} src={facebook} alt="facebook" /></Link>
+                    <Link to="/youtube"><img className={styles.youtube} width={25} src={youtube} alt="youtube" /> </Link>
 
-                    <a href="https://www.instagram.com/dominos_ua/"><img className={styles.instagram} width={35} src={instagram} alt="instagram" /></a>
+                    <Link to="/instagram"><img className={styles.instagram} width={35} src={instagram} alt="instagram" /></Link>
 
-                    <a href="https://t.me/dominosukraine"> <img className={styles.telegram} width={28} src={telegram} alt="telegram" /></a>
+                    <Link to="/telegram"> <img className={styles.telegram} width={28} src={telegram} alt="telegram" /></Link>
                 </div>
             </div>
         </div >

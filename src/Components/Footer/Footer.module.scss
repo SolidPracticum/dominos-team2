@@ -11,9 +11,6 @@
 
 }
 
-a:focus {
-    color: #fff;
-}
 
 .top {
     width: 100%;
@@ -28,6 +25,9 @@ a:focus {
 }
 
 .first a {
+    a:focus{
+        color: #fff;
+    }
     display: flex;
 }
 
@@ -47,14 +47,17 @@ a:focus {
 
 .first,
 .second,
-.third {
+.third
+   {
     background-color: #000;
     font-family: Roboto;
     font-size: 13px;
-    line-height: 2;
-    margin-top: 1em;
+    line-height: 2;  
 }
 
+.fourth {
+    margin-top: 1em;
+}
 button {
     display: none;
 }
@@ -71,9 +74,7 @@ button {
     }
 }
 
-.fourth {
-    margin-top: 1em;
-}
+
 
 .phoneNumber {
     color: #8d8d8d;
@@ -104,7 +105,7 @@ button {
 }
 
 .titleDomino {
-    a {
+   a {
         color: #fff;
         font-family: Roboto;
         font-weight: bald;
@@ -138,6 +139,10 @@ button {
 }
 
 .two {
+    img{
+        margin-right: 10px;
+        border-radius: 5px;
+    }
     margin-right: 50px;
     padding-top: 2em;
 }
