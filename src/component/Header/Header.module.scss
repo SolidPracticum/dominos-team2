@@ -1,11 +1,14 @@
 * {
     text-decoration: none;
-
+   
 }
 
 .wrapper {
     width: 100%;
     height: 20vh;
+    position: fixed;
+    top: 0;
+    z-index: 100;
 }
 
 .top {
@@ -43,7 +46,10 @@
     grid-gap: 10px;
 
 }
-
+.navElements, .domino{
+   color: white;
+   text-decoration: none;
+}
 .phone:hover,
 .city:hover,
 .login:hover {
@@ -190,6 +196,7 @@ li {
     }
     .wrapper {
         padding: 0px 0px;
+        margin-bottom: 5vh;
     }
 
 .pizza{
@@ -202,12 +209,10 @@ li {
     .login {
         display: none;
     }
-
     .phone{
-    width: -10%;
+     display: none;
     }
-
-    .checkoutWrapper {
+     .checkoutWrapper {
         display: none;
     }
 
@@ -216,6 +221,5 @@ li {
         position: relative;
         left: 35%;
     }
-
 
 }

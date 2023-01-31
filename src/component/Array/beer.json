@@ -1,0 +1,49 @@
+[
+    {
+        "text": "Beer",
+        "drinks": [
+             {
+                "img": "https://media.dominos.ua/__sized__/menu/product_osg_image_category/2020/09/16/bud_new-thumbnail-960x960-70.jpg",
+                "title": "Bud",
+                "ml": ["500 ml"],
+                "id": 1,
+                "price": 60
+             },
+             {
+                "img": "https://media.dominos.ua/__sized__/menu/product_osg_image_category/2020/09/16/hoegaarden-thumbnail-960x960.png",
+                "title": "Hoegaarden",
+                "ml": ["500 ml"],
+                "id": 2,
+                "price": 98
+             },
+             {
+                "img": "https://media.dominos.ua/__sized__/menu/product_osg_image_category/2020/09/16/lowenbrau-thumbnail-960x960.png",
+                "title": "Lowenbrau Original",
+                "ml": ["500 ml"],
+                "id": 3,
+                "price": 97
+             },
+             {
+                "img": "https://media.dominos.ua/__sized__/menu/product_osg_image_category/2020/09/16/stellaartois1-thumbnail-960x960-70.jpg",
+                "title": "Stella Artois",
+                "ml": ["500 ml"],
+                "id": 4,
+                "price": 70
+             },
+             {
+                "img": "https://media.dominos.ua/__sized__/menu/product_osg_image_category/2021/01/14/%D0%BB%D0%B5%D1%84%D1%84%D0%B5_%D0%B1%D1%80%D1%83%D0%BD%D0%B5_0.5-thumbnail-960x960-70.jpg",
+                "title": "Leffe Brunе",
+                "ml": ["500 ml"],
+                "id": 5,
+                "price": 98
+             },
+             {
+                "img": "https://media.dominos.ua/__sized__/menu/product_osg_image_category/2022/09/18/Stella-Artois-Non-Alcohol-800x800-01-thumbnail-960x960-70.jpg",
+                "title": "Stella Artois (N/A ж/б)",
+                "ml": ["330 ml"],
+                "id": 6,
+                "price": 70
+             }
+        ]
+    }
+]

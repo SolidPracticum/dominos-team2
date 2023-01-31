@@ -1,0 +1,39 @@
+[
+    {
+        "text": "Chicken",
+        "sides": [
+            {
+                "img": "https://media.dominos.ua/__sized__/menu/product_osg_image_category/2022/01/24/strips-thumbnail-960x960-70.jpg",
+                "gramm": "215 g",
+                "title": "Chicken strips",
+                "price": 185,
+                "id": 1,
+                "type": ["Standart", "Double"]
+            },
+            {
+                "img": "https://media.dominos.ua/__sized__/menu/product_osg_image/2018/04/03/%D0%BA%D1%83%D1%80%D1%8F%D1%87%D1%96_%D0%BA%D1%80%D0%B8%D0%BB%D1%8C%D1%86%D1%8F-thumbnail-960x960-70.jpg",
+                "gramm": "260 g",
+                "title": "Сhicken wings",
+                "price": 188,
+                "id": 2,
+                "type": ["Standart", "Double"]
+            },
+            {
+                "img": "https://media.dominos.ua/__sized__/menu/product_osg_image/2018/04/03/%D0%B3%D0%BE%D1%81%D1%82%D1%80i_%D0%BA%D1%80%D0%B8%D0%BB%D1%8C%D1%86%D1%8F-thumbnail-960x960-70.jpg",
+                "gramm": "285 g",
+                "title": "Spicy wings",
+                "price": 188,
+                "id": 3,
+                "type": ["Standart", "Double"]
+            },
+            {
+                "img": "https://media.dominos.ua/__sized__/menu/product_osg_image/2018/04/03/%D0%BA%D1%80%D0%B8%D0%BB%D1%8C%D1%86%D1%8F_BBQ-thumbnail-960x960-70.jpg",
+                "gramm": "285 g",
+                "title": "BBQ wings",
+                "price": 188,
+                "id": 4,
+                "type": ["Standart", "Double"]
+            }
+        ]
+    }
+]

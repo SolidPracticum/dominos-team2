@@ -1,0 +1,47 @@
+[
+    {
+        "text": "Sauces",
+        "sides": [
+            {
+                "img": "https://media.dominos.ua/__sized__/menu/product_osg_image_category/2022/09/05/PRODUCT_IMAGE-04.09.22-08BBQ-thumbnail-960x960-70.jpg",
+                "gramm": "25 g",
+                "title": "Spicy sauce 25g",
+                "price": 15,
+                "id": 1,
+                "type": ["DIP"]
+            },
+            {
+                "img": "https://media.dominos.ua/__sized__/menu/product_osg_image_category/2022/09/05/PRODUCT_IMAGE-04.09.22-08BBQ-thumbnail-960x960-70.jpg",
+                "gramm": "25 g",
+                "title": "Sauce Marinara 25g",
+                "price": 15,
+                "id": 2,
+                "type": ["DIP"]
+            },
+            {
+                "img": "https://media.dominos.ua/__sized__/menu/product_osg_image_category/2022/09/05/PRODUCT_IMAGE-04.09.22-08BBQ-thumbnail-960x960-70.jpg",
+                "gramm":"25 g",
+                "title": "Sauce BBQ 25g",
+                "price": 15,
+                "id": 3,
+                "type": ["DIP"]
+            },
+            {
+                "img": "https://media.dominos.ua/__sized__/menu/product_osg_image_category/2022/09/05/PRODUCT_IMAGE-04.09.22-08BBQ-thumbnail-960x960-70.jpg",
+                "gramm": "25 g",
+                "title": "Garlic sauce 25g",
+                "price": 15,
+                "id": 4,
+                "type": ["DIP"]
+            },
+            {
+                "img": "https://media.dominos.ua/__sized__/menu/product_osg_image_category/2022/10/20/PRODUCT_IMAGE-04.09.22-12-thumbnail-960x960-70.jpg",
+                "gramm": "100 g",
+                "title": "Set of sauces (garlic, spicy, barbecue, marinara)",
+                "price": 50,
+                "id": 5,
+                "type": ["DIP"]
+            }
+        ]
+    }
+]

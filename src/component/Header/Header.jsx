@@ -1,5 +1,5 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import styles from './Header.module.scss'
 import {GiHamburgerMenu} from 'react-icons/gi'
 import {ImCross} from 'react-icons/im'
@@ -22,8 +22,8 @@ function Header({ clicked, isClicked }) {
         <div className={styles.lng_auth}>
 
           <Link to="/Contacts" className={styles.contact}>
-            <img width={25} src={phone} alt="" />
-            <h3 className={styles.phone}>0442 222 11 11</h3>
+            <img src={phone} alt="phone" />
+            <h3 viewBox="0 0 16 24" className={styles.phone}>0442 222 11 11</h3>
           </Link>
 
           <div className={styles.city}>
@@ -47,8 +47,8 @@ function Header({ clicked, isClicked }) {
       <div className={styles.bottom}>
        <div>
       
-       <Link to="/Domino" className={styles.pizza}>
-       <img  src={pizza} alt="" />
+       <Link to="/" className={styles.pizza}>
+       <img  src={pizza} alt="Domino`s Pizza" />
           <h3 className={styles.domino}>Domino's Pizza</h3> 
           
         </Link>
@@ -57,7 +57,7 @@ function Header({ clicked, isClicked }) {
        
 
 
-        <Link to="/">
+        <Link to="/Promo">
           <li className={styles.navElements}>Promo</li>
         </Link>
 

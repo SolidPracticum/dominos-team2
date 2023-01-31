@@ -1,0 +1,43 @@
+[
+    {
+        "text": "Pizza: Heroes",
+        "pizzas": [
+            {
+                "img": "https://media.dominos.ua/__sized__/menu/product_osg_image_category/2022/11/09/PRODUCT_IMAGE-PIZZA_PIECES-960x619pix_CHILI-thumbnail-960x960-70.jpg",
+              "id": 0,
+              "title": "Pizza Cherry",
+              "sizes": ["Standart", "Large", "ExtraLarge", "XXLarge"],
+              "price": 295,
+              "type": ["Phialadelphia", "Hot-Dog Crust"],
+              "gramm": "587 g"
+            },    
+            {
+                "img": "https://media.dominos.ua/__sized__/menu/product_osg_image_category/2022/11/09/PRODUCT_IMAGE-PIZZA_PIECES-960x619pix_CHILI-thumbnail-960x960-70.jpg",
+                "id": 1,
+                "title": "Pizza Tony Pepperoni",
+                "sizes": ["Standart", "Large", "ExtraLarge", "XXLarge"],
+                "price": 264,
+                "type": ["Phialadelphia", "Hot-Dog Crust"],
+                "gramm": "530 g"
+            },
+            {
+                "img": "https://media.dominos.ua/__sized__/menu/product_osg_image_category/2022/11/09/PRODUCT_IMAGE-PIZZA_PIECES-960x619pix_CHILI-thumbnail-960x960-70.jpg",
+                "id": 3,
+                "title": "Pizza Margarita",
+                "sizes": ["Standart", "Large", "ExtraLarge", "XXLarge"],
+                "price": 264,
+                "type": ["Phialadelphia", "Hot-Dog Crust"],
+                "gramm": "552 g"
+            },
+            {
+                "img": "https://media.dominos.ua/__sized__/menu/product_osg_image_category/2022/11/09/PRODUCT_IMAGE-PIZZA_PIECES-960x619pix_CHILI-thumbnail-960x960-70.jpg",
+                "id": 4,
+                "title": "Set of pan-asian pizzas (Pizza Curry Pizza Sweet and sour Pizza Chili)",
+                "sizes": ["Standart", "Large", "ExtraLarge", "XXLarge"],
+                "type": ["Phialadelphia", "Hot-Dog Crust"],
+                "price": 269,
+                "gramm": "569 g"
+            }
+        ]
+    }
+]

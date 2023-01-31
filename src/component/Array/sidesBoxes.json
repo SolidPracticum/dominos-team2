@@ -1,0 +1,39 @@
+[
+    {
+        "text": "Combo-boxes",
+        "sides": [
+            {
+                "img": "https://media.dominos.ua/__sized__/menu/product_osg_image_category/2022/05/26/ComboB1-thumbnail-960x960-70.jpg",
+                "gramm": "580 g",
+                "title": "Combo-box",
+                "price": 319,
+                "id": 1,
+                "type": ["Standart"]
+            },
+            {
+                "img": "https://media.dominos.ua/__sized__/menu/product_osg_image_category/2022/06/23/ComboB1fri-thumbnail-960x960-70.jpg",
+                "gramm": "580 g",
+                "title": "Combo-box fries",
+                "price": 319,
+                "id": 2,
+                "type": ["Standart"]
+            },
+            {
+                "img": "https://media.dominos.ua/__sized__/menu/product_osg_image_category/2022/08/31/POTATO-COMBO-BOX-26.08.22-01-thumbnail-960x960-70.jpg",
+                "gramm": "740 g",
+                "title": "Large potato box",
+                "price": 315,
+                "id": 3,
+                "type": ["Standart"]
+            },
+            {
+                "img": "https://media.dominos.ua/__sized__/menu/product_osg_image_category/2022/10/20/PRODUCT_IMAGE-04.09.22-12-thumbnail-960x960-70.jpg",
+                "gramm": "100 g",
+                "title": "Set of sauces (garlic, spicy, barbecue, marinara)",
+                "price": "50",
+                "id": 4,
+                "type": ["DIP"]
+            }
+        ]
+    }
+]
