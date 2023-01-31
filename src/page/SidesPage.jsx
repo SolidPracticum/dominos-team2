@@ -6,18 +6,19 @@ import chicken from './../component/Array/sidesChicken.json'
 import sauses from './../component/Array/sidesSauses.json'
 import Header from '../component/Header/Header';
 import SidesCart from '../component/SidesCart/SidesCart';
+import scss from './Pages.module.scss'
 const SidesPage = () => {
     const category = [boxes, sides, chicken, bread, sauses]
     return (
         <div>
             <Header />
-            <div className="content">
+            <div className={scss.content}>
                 {category.map((arr) =>
                     arr.map((item) =>
-                        <div className='MAIN'>
-                            <p className='text'>{item.text}</p>
-                            <div className='cart-f'>
-                                {item.sides.map((i) => <SidesCart {...i} />)}
+                        <div className={scss.main_grid}>
+                            <p className={scss.text}>{item.text}</p>
+                            <div className={scss.cart_f}>
+                                {item.sides.map((i) => <SidesCart {...i} key={i.id} />)}
                             </div>
                         </div>
                     ))}

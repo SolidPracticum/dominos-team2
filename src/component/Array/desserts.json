@@ -7,6 +7,7 @@
                 "gramm": "276 g",
                 "title": "Apricot rolls",
                 "type": ["Standart"],
+                "id": 1,
                 "price": 110
             },
             {
@@ -14,12 +15,14 @@
                 "gramm": "276 g",
                 "title": "Cherry rolls",
                 "type": ["Standart"],
+                "id": 2,
                 "price": 110
             },
             {
                 "img": "https://media.dominos.ua/__sized__/menu/product_osg_image_category/2022/09/18/%D0%BA%D1%80%D0%B5%D0%BC-%D1%80%D0%BE%D0%BB%D0%B8-thumbnail-960x960-70.jpg",
                 "gramm": "241 g",
                 "title": "Cream cheese rolls",
+                "id": 3,
                 "type": ["Standart"],
                 "price": 110
             },
@@ -29,6 +32,7 @@
                 "gramm": "229 g",
                 "title": "Chocolate rolls",
                 "type": ["Standart"],
+                "id": 4,
                 "price": 110
             },
             
@@ -37,6 +41,7 @@
                 "gramm": "80 g",
                 "title": "Coconut Muffin",
                 "type": ["Standart"],
+                "id": 5,
                 "price": 60
             },
             
@@ -45,6 +50,7 @@
                 "gramm": "80 g",
                 "title": "Latte muffin with marshmallows",
                 "type": ["Standart"],
+                "id": 6,
                 "price": 60
             },
             
@@ -53,6 +59,7 @@
                 "gramm": "96 g",
                 "title": "Lava Cake",
                 "type": ["Standart"],
+                "id": 7,
                 "price": 90
             },
             
@@ -61,12 +68,14 @@
                 "gramm": "166 g",
                 "title": "Сinnamon Bites",
                 "type": ["Standart", "Double"],
+                "id": 8,
                 "price": 95
             },
              {
                 "img": "https://media.dominos.ua/__sized__/menu/product_osg_image_category/2022/09/05/PRODUCT_IMAGE-04.09.22-06-thumbnail-960x960-70.jpg",
                 "title": "Sweet sause 50g",
                 "type": ["DIP"],
+                "id": 9,
                 "price": 15
              }
         ]

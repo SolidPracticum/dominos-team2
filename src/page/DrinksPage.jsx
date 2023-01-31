@@ -2,21 +2,21 @@ import React from 'react';
 import drinks from '../component/Array/drinks.json'
 import juice from '../component/Array/juice.json'
 import beer from '../component/Array/beer.json'
-import './Pages.scss'
 import DrinksCart from '../component/DrinksCart/DrinksCart';
 import Header from '../component/Header/Header';
+import scss from './Pages.module.scss'
 const DrinksPage = () => {
     const category = [drinks, juice, beer]
     return (
         <div>
             <Header />
-            <div className="content">
+            <div className={scss.content}>
                 {category.map((arr) =>
                     arr.map((item) =>
-                        <div className='MAIN'>
-                            <p className='text'>{item.text}</p>
-                            <div className='cart-f'>
-                                {item.drinks.map((i) => <DrinksCart {...i} />)}
+                        <div className={scss.main_grid}>
+                            <p className={scss.text}>{item.text}</p>
+                            <div className={scss.cart_f}>
+                                {item.drinks.map((i) => <DrinksCart {...i} key={i.id} />)}
                             </div>
                         </div>
                     ))}

@@ -48,8 +48,8 @@ function Header({ clicked, isClicked }) {
       <div className={styles.bottom}>
        <div>
       
-       <Link to="/Domino" className={styles.pizza}>
-       <img  src={pizza} alt="" />
+       <Link to="/" className={styles.pizza}>
+       <img  src={pizza} alt="Domino`s Pizza" />
           <h3 className={styles.domino}>Domino's Pizza</h3> 
           
         </Link>
