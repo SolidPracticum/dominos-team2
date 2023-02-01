@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from '../component/Footer/Footer';
 import HeaderPromotion from '../component/HeaderPromotion/HeaderPromotion';
 import PromotionMain from '../component/PromotionMain/PromotionMain';
 const PromotionPage = () => {
@@ -6,6 +7,7 @@ const PromotionPage = () => {
         <div>
             <HeaderPromotion/>
             <PromotionMain/>
+            <Footer/>
         </div>
     );
 };

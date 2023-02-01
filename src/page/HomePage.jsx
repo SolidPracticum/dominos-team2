@@ -6,6 +6,7 @@ import SimpleSlider from "../component/slider/Slider"
 import Cart from '../component/PizzaCart/PizzaCart'
 import scss from './Pages.module.scss'
 import Header from '../component/Header/Header'
+import Footer from '../component/Footer/Footer'
 export default function HomePage() {
     const category = [asian, bestPrice, heroes]
     return (
@@ -23,6 +24,7 @@ export default function HomePage() {
                     </div>
                 ))}
             </div>
+            <Footer/>
         </div>
     )
 }

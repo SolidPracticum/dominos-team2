@@ -7,6 +7,7 @@ import sauses from './../component/Array/sidesSauses.json'
 import Header from '../component/Header/Header';
 import SidesCart from '../component/SidesCart/SidesCart';
 import scss from './Pages.module.scss'
+import Footer from '../component/Footer/Footer';
 const SidesPage = () => {
     const category = [boxes, sides, chicken, bread, sauses]
     return (
@@ -23,6 +24,7 @@ const SidesPage = () => {
                         </div>
                     ))}
             </div>
+            <Footer/>
         </div>
     );
 };

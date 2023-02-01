@@ -5,6 +5,7 @@ import asian from './../component/Array/pizzaAsian.json'
 import bestPrice from './../component/Array/pizzaBestPrice.json'
 import heroes from './../component/Array/pizzaHeroes.json'
 import scss from './Pages.module.scss'
+import Footer from './../component/Footer/Footer'
 const PizzaPage = () => {
     const category = [asian, bestPrice, heroes]
 
@@ -22,6 +23,7 @@ const PizzaPage = () => {
                         </div>
                     ))}
             </div>
+            <Footer/>
         </div>
     )
 

@@ -1,5 +1,6 @@
 import React from 'react';
 import DessertCart from '../component/DessertCart/DessertCart';
+import Footer from '../component/Footer/Footer';
 import Header from '../component/Header/Header';
 import dessert from './../component/Array/desserts.json'
 import scss from './Pages.module.scss'
@@ -20,6 +21,7 @@ const DessertsPage = () => {
                         </div>
                     ))}
             </div>
+            <Footer/>
         </div>
     );
 };

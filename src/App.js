@@ -1,7 +1,6 @@
 
 import React from 'react'
 import { Route, Routes } from 'react-router-dom';
-import Footer from "./component/Footer/Footer"
 import HomePage from "./page/HomePage";
 import './App.scss';
 import DrinksPage from './page/DrinksPage';
@@ -23,7 +22,6 @@ function App() {
         <Route path="/Checkout" element={<h3>Checkout</h3>} />
         <Route path="/Auth" element={<h3>Auth</h3>} />
       </Routes>
-<Footer/>
     </div>
   )
 }

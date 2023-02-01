@@ -5,6 +5,7 @@ import beer from '../component/Array/beer.json'
 import DrinksCart from '../component/DrinksCart/DrinksCart';
 import Header from '../component/Header/Header';
 import scss from './Pages.module.scss'
+import Footer from '../component/Footer/Footer';
 const DrinksPage = () => {
     const category = [drinks, juice, beer]
     return (
@@ -21,6 +22,7 @@ const DrinksPage = () => {
                         </div>
                     ))}
             </div>
+            <Footer/>
         </div>
     );
 };
