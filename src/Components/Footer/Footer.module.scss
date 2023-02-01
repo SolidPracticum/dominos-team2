@@ -1,0 +1,753 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Cookie&family=Noto+Sans:ital,wght@0,400;0,700;1,500&family=PT+Sans:wght@400;700&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+.wrapper {
+    justify-content: space-between;
+    padding: 2em 3em 2em;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 350px;
+    background-color: #000;
+    color: #fff;
+
+}
+
+
+.top {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.first {
+    width: 25%;
+    padding-left: 3.2em;
+}
+
+.first a {
+    a:focus{
+        color: #fff;
+    }
+    display: flex;
+}
+
+.second {
+    width: 25%;
+    margin-right: 2em;
+
+}
+
+.tracker {
+    margin-right: 10px;
+}
+
+.third {
+    width: 25%;
+}
+
+.first,
+.second,
+.third
+   {
+    background-color: #000;
+    font-family: Roboto;
+    font-size: 13px;
+    line-height: 2;  
+}
+
+.fourth {
+    margin-top: 1em;
+}
+button {
+    display: none;
+}
+
+.first,
+.second,
+.third {
+    a {
+        color: #8d8d8d;
+        text-decoration: none;
+        font-family: Roboto;
+        font-size: 12px;
+        line-height: 2;
+    }
+}
+
+
+
+.phoneNumber {
+    color: #8d8d8d;
+    text-decoration: none;
+    font-family: Roboto;
+    position: relative;
+    font-size: 14px;
+    line-height: 2;
+}
+
+.bottom {
+
+    margin-bottom: 2vw;
+    font-size: 13px;
+    margin-left: 2em;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-evenly;
+    color: #8d8d8d;
+
+}
+
+.title {
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 1em;
+}
+
+.titleDomino {
+   a {
+        color: #fff;
+        font-family: Roboto;
+        font-weight: bald;
+        font-size: 1.5em;
+        font-weight: 900;
+    }
+}
+
+.text {
+    text-transform: uppercase;
+    color: rgb(141, 141, 141);
+    width: 15em;
+    font-size: 12px;
+    margin-top: 10px;
+
+}
+
+.one {
+    padding-top: 5em;
+    width: 20%;
+}
+
+.site {
+    a {
+        color: #8d8d8d;
+        text-decoration: none;
+        display: block;
+        text-transform: uppercase;
+        font-size: .9em;
+    }
+}
+
+.two {
+    img{
+        margin-right: 10px;
+        border-radius: 5px;
+    }
+    margin-right: 50px;
+    padding-top: 2em;
+}
+
+.three {
+    img {
+        margin-right: 20px;
+    }
+}
+
+
+
+.icons {
+    img {
+        border-radius: 7px;
+    }
+}
+
+.three {
+    width: 22%;
+    margin-right: 50px;
+    margin-top: 2em;
+}
+
+.visa {
+    margin-bottom: 15px;
+}
+
+.application {
+    margin-bottom: 10px;
+}
+
+
+
+.payments {
+    margin-bottom: 10px;
+}
+
+.follow {
+    text-align: center;
+    margin-top: 2.3em;
+}
+
+.follow {
+    img {
+        margin-right: 15px;
+    }
+}
+
+.facebook {
+    margin-right: 10px;
+}
+
+.arrow {
+    display: none;
+}
+
+.openDomino{
+    transform: rotate(90deg);
+ }
+ 
+ .openServices{
+     transform: rotate(90deg);
+  }
+  .openContacts{
+     transform: rotate(90deg);
+  }
+
+
+
+@media screen and (max-width:1200px) {
+    .follow {
+        img {
+            margin-right: 7px;
+
+        }
+    }
+
+}
+
+@media screen and (max-width:992px) {
+
+
+    #first,
+    #second,
+    #third {
+
+        display: inline;
+        cursor: pointer;
+        background: none;
+        border: none;
+        transition: ease-in-out .2s;
+    }
+
+    .arrow {
+        display: inline;
+        width: 20px;
+        float: right;
+
+    }
+
+    .wrapper {
+        height: fit-content;
+        padding: 0 0 0;
+        margin: 0;
+    }   
+
+    .firstColumn,
+    .secondColumn,
+    .thirdColumn {
+
+        background-color: rgb(34, 34, 34);
+        height: 100%;
+        padding: 3.5vw 12%;
+
+        a {
+            display: flex;
+            font-family: Roboto;
+            font-weight: 300;
+            background-color: #222;
+            color: #fff;
+            margin-bottom: 1vw;
+            font-size: 2.2vw;
+            padding: 0;
+        }
+    }
+
+    .title {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 10px;
+        margin-left: 1em;
+        padding: 2vw 7% 2vw;
+    }
+
+    .bottom {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+
+    .top,
+    .bottom {
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .top,
+    .bottom {
+        span {
+            justify-content: center;
+        }
+    }
+
+    .phoneNumber {
+        display: none;
+    }
+
+    .second {
+        .tracker {
+            display: none;
+        }
+    }
+
+    .first,
+    .second,
+    .third,
+    .fourth {
+        width: 100%;
+        font-size: 5vw;
+        color: #8d8d8d;
+        margin: 0;
+        padding: 0;
+    }
+
+    .fourth {
+        margin-top: 20px;
+
+        .titleDomino {
+            font-size: 33px;
+        }
+    }
+
+    .first,
+    .second,
+    .third {
+        border-bottom: 0.7vw solid #222;
+    }
+
+
+    .follow {
+        margin-right: 30px;
+        margin-left: 37px;
+
+        .facebook {
+            width: 35px;
+            margin-right: 130px;
+        }
+
+        .youtube {
+            width: 65px;
+            margin-right: 130px;
+        }
+
+        .instagram {
+            width: 90px;
+            margin-right: 130px;
+        }
+
+        .telegram {
+            width: 70px;
+        }
+    }
+
+    .one,
+    .two,
+    .three,
+    .four {
+        width: 100%;
+        align-items: center;
+    }
+
+    .one {
+        display: flex;
+        order: 9;
+        padding-top: 0;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+        height: 12.5vw;
+        background-color: #222;
+
+    }
+
+    .text {
+        text-transform: uppercase;
+        width: 100%;
+        font-size: 2.4vw;
+    }
+
+    .two {
+        font-size: 4vw;
+        margin-right: 0;
+        padding-top: 15px;
+
+        img {
+            margin-top: 10px;
+            height: 11vw;
+        }
+
+        .application {
+            padding: 8vw 12% 6.5vw;
+        }
+    }
+
+    .three {
+        .visa {
+            width: 26vw;
+            margin-right: 20vw;
+        }
+
+        .masterCard {
+            width: 20vw;
+        }
+
+        .payments {
+            font-size: 4.2vw;
+            margin-top: 8vw;
+            margin-bottom: 8vw;
+        }
+    }
+
+    .follow {
+        margin-right: 0;
+        padding-top: 15px;
+        padding-bottom: 20px;
+
+        .social {
+            font-size: 4.2vw;
+            margin-top: 7vw;
+            margin-bottom: 6vw;
+        }
+    }
+}
+
+@media screen and (max-width:768px) {
+    .firstColumn,
+    .secondColumn,
+    .thirdColumn {
+
+        background-color: rgb(34, 34, 34);
+        height: 100%;
+        padding: 3.5vw 12%;
+
+        a {
+            display: flex;
+            font-family: Roboto;
+            font-weight: 300;
+            background-color: #222;
+            color: #fff;
+            margin-bottom: 1vw;
+            font-size: 2.2vw;
+            padding: 0;
+        }
+    }
+
+    .top {
+        flex-direction: column;
+    }
+  
+    .phoneNumber {
+        display: none;
+    }
+
+   
+    .wrapper {
+        padding: 0 0 0;
+        margin: 0;
+    }
+
+    .bottom {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+   
+
+    .top,
+    .bottom {
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .top,
+    .bottom {
+        span {
+            justify-content: center;
+        }
+    }
+
+    .phoneNumber {
+        display: none;
+    }
+ 
+
+    .one {
+        display: flex;
+        order: 9;
+    }
+
+    .first,
+    .second,
+    .third,
+    .fourth {
+        width: 100%;
+        font-size: 5vw;
+        color: #8d8d8d;
+        margin: 0;
+        padding: 0;
+    }
+
+    .fourth {
+        margin-top: 20px;
+    }
+
+    .first,
+    .second,
+    .third {
+        border-bottom: 0.7vw solid #222;
+    }
+
+    .fourth {
+        font: inherit;
+    }
+
+    .follow {
+        text-align: center;
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-top: 0;
+
+
+        .facebook {
+            width: 35px;
+            margin-right: 110px;
+        }
+
+        .youtube {
+            width: 55px;
+            margin-right: 105px;
+        }
+
+        .instagram {
+            width: 70px;
+            margin-right: 110px;
+        }
+
+        .telegram {
+            width: 60px;
+        }
+    }
+
+    .one,
+    .two,
+    .three,
+    .four {
+        width: 100%;
+        align-items: center;
+    }
+
+    .one {
+        padding-top: 0;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+        height: 12.5vw;
+        background-color: #222;
+
+    }
+
+    .text {
+        text-transform: uppercase;
+        width: 100%;
+        font-size: 2.4vw;
+    }
+
+    .two {
+        margin-right: 0;
+        padding-top: 15px;
+    }
+
+    .three {
+        .visa {
+            margin-bottom: 0;
+            width: 20vw;
+            margin-right: 25vw;
+        }
+
+        .masterCard {
+            margin-bottom: 0;
+            width: 15vw;
+        }
+
+        .payments {
+            font-size: 4.2vw;
+            margin-top: 8vw;
+            margin-bottom: 8vw;
+        }
+    }
+}
+
+@media screen and (max-width:576px) {
+
+    .wrapper {
+        padding: 0 0 0;
+        margin: 0;
+    }
+
+    .bottom {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    // .first,
+    // .second,
+    // .third {
+    //     a {
+    //         display: none;
+    //     }
+    // }
+
+    .top,
+    .bottom {
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .phoneNumber {
+        display: none;
+    }
+
+
+    .one {
+        display: flex;
+        order: 9;
+    }
+
+    .icons {
+        .appStore {
+            width: 30%;
+        }
+
+        .googlePlay {
+            width: 30%;
+        }
+    }
+
+    .first,
+    .second,
+    .third,
+    .fourth {
+        width: 100%;
+        font-size: 5vw;
+        color: #8d8d8d;
+        margin: 0;
+        padding: 0;
+    }
+
+    .fourth {
+        margin-top: 20px;
+    }
+
+    .fourth {
+        .domino {
+            width: 60px;
+        }
+    }
+
+    .first,
+    .second,
+    .third {
+        border-bottom: 0.7vw solid #222;
+    }
+
+    .fourth {
+        .domino {
+            width: 30px;
+        }
+
+        .titleDomino {
+            font-size: 4vw;
+        }
+    }
+
+    .follow {
+        align-items: center;
+        margin-right: 20px;
+        margin-left: 20px;
+        justify-content: space-between;
+
+        .facebook {
+            width: 20px;
+            margin-right: 45px;
+        }
+
+        .youtube {
+            width: 40px;
+            margin-right: 40px;
+
+        }
+
+        .instagram {
+            width: 55px;
+            margin-right: 45px;
+        }
+
+        .telegram {
+            width: 40px;
+        }
+    }
+
+    .one,
+    .two,
+    .three,
+    .four {
+        width: 100%;
+        align-items: center;
+    }
+
+    .one {
+        padding-top: 0;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+        height: 12.5vw;
+        background-color: #222;
+
+    }
+
+    .text {
+        font: inherit;
+        text-transform: uppercase;
+        width: 100%;
+        font-size: 2.4vw;
+    }
+
+    .two {
+        margin-right: 0;
+        padding-top: 15px;
+
+        .application {
+            margin: 0;
+        }
+    }
+
+    .three {
+        .visa {
+            width: 19%;
+        }
+    }
+}
