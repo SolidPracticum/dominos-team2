@@ -1,7 +1,7 @@
 
 import React from 'react'
 import { Route, Routes } from 'react-router-dom';
-import Footer from "./components/Footer/Footer"
+import Footer from "./component/Footer/Footer"
 import HomePage from "./page/HomePage";
 import './App.scss';
 import DrinksPage from './page/DrinksPage';
